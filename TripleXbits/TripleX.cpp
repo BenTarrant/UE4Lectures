@@ -9,13 +9,12 @@ int main()
     std:: cout << std:: endl;
     
     // first lock
-    int a = 4;
-    int b = 2;
-    int c = 1;
+    const int a = 4;
+    const int b = 2;
+    const int c = 1;
 
-    int sum = a + b + c; // adds each of the initialized variables together
-    int product = a * b * c;
-
+    const int sum = a + b + c; // adds each of the initialized variables together
+    const  int product = a * b * c;
 
     std:: cout << sum << std:: endl; // prints sum (the total of a,b and c) to terminal
     std:: cout << product << std:: endl;; // prints sum (the total of a,b and c) to terminal
