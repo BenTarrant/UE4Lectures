@@ -12,6 +12,9 @@ void UBullCowCartridge::SetupGame()
     PrintLine(TEXT("Hello there, Press Tab to use the Terminal")); // Prints a line to the terminal
     PrintLine(TEXT("You need to guess the %i letter word\nYou have %i Attempts"), HiddenWord.Len(), Lives);
     PrintLine(TEXT("Type in your Guess\nThen press enter..."));
+
+    //const TCHAR HW[] = TEXT("LIME"); //sets array of characters of the hidden word
+    // PrintLine(TEXT("The first letter is: %c"), HW[0]);
 }
 
 void UBullCowCartridge::BeginPlay() // When the game starts
@@ -24,6 +27,50 @@ void UBullCowCartridge::BeginPlay() // When the game starts
 void UBullCowCartridge::OnInput(const FString& Input) // When the player hits enter
 {
     ProcessGuess(Input);
+}
+
+
+void UBullCowCartridge::ProcessGuess(FString Guess)
+{
+    if (bGameOver != true) //if the game is not over
+    { 
+        ClearScreen(); // clear the terminal
+
+        //check the guess
+
+        //is is the right amount of characters?
+
+        PrintLine(TEXT("You guessed: " + (Guess)));
+    
+        if (Guess == HiddenWord)
+        {
+            // success state
+            PrintLine(TEXT("Well done, that was correct!"));
+            PrintLine(TEXT("You Win!"));
+            bGameOver = true; // set the game over flag
+            PrintLine (TEXT("\nPress Enter to Play again"));
+
+        }
+
+        else if (Guess != HiddenWord)
+        {
+            if (!IsIsogram(Guess))
+            {
+                PrintLine(TEXT("No repeating letters, try again!"));
+            }
+
+            LoseLife(); //remove a life function
+        }
+
+        return;
+    }
+
+    if (bGameOver)
+    {
+        ClearScreen(); // clear the terminal
+        SetupGame(); // reset the game
+        return;
+    }
 }
 
 void UBullCowCartridge::LoseLife()
@@ -48,42 +95,9 @@ void UBullCowCartridge::LoseLife()
     } 
 }
 
-
-void UBullCowCartridge::ProcessGuess(FString Guess)
+bool UBullCowCartridge::IsIsogram(FString Word) const
 {
-    if (bGameOver != true) //if the game is not over
-    { 
-        ClearScreen(); // clear the terminal
-
-        //check the guess
-        //is it an isogram?
-        //is is the right amount of characters?
-
-        PrintLine(TEXT("You guessed: " + (Guess)));
     
-        if (Guess == HiddenWord)
-        {
-            // success state
-            PrintLine(TEXT("Well done, that was correct!"));
-            PrintLine(TEXT("You Win!"));
-            bGameOver = true; // set the game over flag
-            PrintLine (TEXT("\nPress Enter to Play again"));
-
-        }
-
-        else if (Guess != HiddenWord)
-        {
-            //PrintLine (TEXT("The hidden word is %i characters long"), HiddenWord.Len());
-            LoseLife(); //remove a life function
-        }
-
-        return;
-    }
-
-    if (bGameOver)
-    {
-        ClearScreen(); // clear the terminal
-        SetupGame(); // reset the game
-        return;
-    }
+    return true;
 }
+
