@@ -14,7 +14,8 @@ void UBullCowCartridge::SetupGame()
     PrintLine(TEXT("Type in your Guess\nThen press enter..."));
 
     //const TCHAR HW[] = TEXT("LIME"); //sets array of characters of the hidden word
-    // PrintLine(TEXT("The first letter is: %c"), HW[0]);
+    //PrintLine(TEXT("The first letter is: %c"), HW[0]);
+    
 }
 
 void UBullCowCartridge::BeginPlay() // When the game starts
@@ -97,6 +98,18 @@ void UBullCowCartridge::LoseLife()
 
 bool UBullCowCartridge::IsIsogram(FString Word) const
 {
+    //curently only checking if the first letter of the guess is repeated!
+    int32 Index = 0;
+    int32 Comparison = Index +1;
+
+    for (; Comparison < Word.Len(); Comparison++)
+    {
+        if (Word[Index] == Word[Comparison])
+        {
+            return false;
+        }
+        
+    }
     
     return true;
 }
