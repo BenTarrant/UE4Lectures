@@ -1,9 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "BullCowCartridge.h"
+#include "HiddenWordList.h"
 
 void UBullCowCartridge::SetupGame()
 {
-    HiddenWord = TEXT("LIME");
+    HiddenWord == TEXT("LIME");
     Lives = HiddenWord.Len();
     bGameOver = false; // ensure the game over flag is clear
 
@@ -13,8 +14,10 @@ void UBullCowCartridge::SetupGame()
     PrintLine(TEXT("You need to guess the %i letter word\nYou have %i Attempts"), HiddenWord.Len(), Lives);
     PrintLine(TEXT("Type in your Guess\nThen press enter..."));
 
-    //const TCHAR HW[] = TEXT("LIME"); //sets array of characters of the hidden word
-    //PrintLine(TEXT("The first letter is: %c"), HW[0]);
+    for (int32 i = 0; i != 5; i++)
+    {
+        PrintLine(TEXT("%s"), *Words[i]);
+    }
     
 }
 
@@ -114,3 +117,4 @@ bool UBullCowCartridge::IsIsogram(FString Word) const
     return true;
 }
 
+ 
