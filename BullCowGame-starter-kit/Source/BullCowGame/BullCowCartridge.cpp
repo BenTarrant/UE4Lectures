@@ -4,7 +4,7 @@
 
 void UBullCowCartridge::SetupGame()
 {
-    HiddenWord == TEXT("LIME");
+    HiddenWord = TEXT("LIME");
     Lives = HiddenWord.Len();
     bGameOver = false; // ensure the game over flag is clear
 
@@ -14,10 +14,10 @@ void UBullCowCartridge::SetupGame()
     PrintLine(TEXT("You need to guess the %i letter word\nYou have %i Attempts"), HiddenWord.Len(), Lives);
     PrintLine(TEXT("Type in your Guess\nThen press enter..."));
 
-    for (int32 i = 0; i != 5; i++)
-    {
-        PrintLine(TEXT("%s"), *Words[i]);
-    }
+    //for (int32 i = 0; i != 5; i++)
+    //{
+        //PrintLine(TEXT("%s"), *Words[i]);
+    //}
     
 }
 
