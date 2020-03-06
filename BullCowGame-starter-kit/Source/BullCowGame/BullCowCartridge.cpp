@@ -4,6 +4,7 @@
 
 void UBullCowCartridge::SetupGame()
 {
+
     HiddenWord = TEXT("LIME");
     Lives = HiddenWord.Len();
     bGameOver = false; // ensure the game over flag is clear
@@ -13,18 +14,13 @@ void UBullCowCartridge::SetupGame()
     PrintLine(TEXT("Hello there, Press Tab to use the Terminal")); // Prints a line to the terminal
     PrintLine(TEXT("You need to guess the %i letter word\nYou have %i Attempts"), HiddenWord.Len(), Lives);
     PrintLine(TEXT("Type in your Guess\nThen press enter..."));
-
-    //for (int32 i = 0; i != 5; i++)
-    //{
-        //PrintLine(TEXT("%s"), *Words[i]);
-    //}
-    
 }
 
 void UBullCowCartridge::BeginPlay() // When the game starts
 {
     //Begin Game
     Super::BeginPlay();
+    GetValidWords(Words); // grabs a list of valid words from HiddenWordList.h
     SetupGame();
 }
 
@@ -32,6 +28,23 @@ void UBullCowCartridge::OnInput(const FString& Input) // When the player hits en
 {
     ProcessGuess(Input);
 }
+
+TArray<FString> UBullCowCartridge:: GetValidWords(TArray<FString> WordsList) const
+{
+    TArray<FString> ValidWords;
+
+    for (FString PossibleWord: WordsList)//int32 i = 0; i < WordsList.Num(); i++)
+    {
+        if (PossibleWord.Len() >= 4 && PossibleWord.Len() <=8 && IsIsogram(PossibleWord)) // checks the length of the strings in Words list and if they're an isogram
+        {
+            ValidWords.Emplace(PossibleWord); //adds them from Words list array to Valid Words array
+        }
+        
+    }
+
+    return ValidWords; //returns a list (array) of valid words for use
+}
+
 
 
 void UBullCowCartridge::ProcessGuess(FString Guess)
@@ -76,6 +89,7 @@ void UBullCowCartridge::ProcessGuess(FString Guess)
         return;
     }
 }
+
 
 void UBullCowCartridge::LoseLife()
 {
