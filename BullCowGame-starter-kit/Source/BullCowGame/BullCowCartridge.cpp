@@ -11,9 +11,10 @@ void UBullCowCartridge::SetupGame()
     bGameOver = false; // ensure the game over flag is clear
 
     //Intro Text
-    PrintLine(TEXT("Hello there, Press Tab to use the Terminal")); // Prints a line to the terminal
-    PrintLine(TEXT("You need to guess the %i letter word\nYou have %i Attempts"), HiddenWord.Len(), Lives);
-    PrintLine(TEXT("Type in your Guess\nThen press enter..."));
+    PrintLine(TEXT("Hello, can you to guess the %i letter word?"), HiddenWord.Len()); // Prints a line to the terminal
+    PrintLine(TEXT("You have %i attempts to get it right"), Lives);
+    PrintLine(TEXT("Press Tab to use the Terminal\nthen type in your Guess, and press enter"));
+    PrintLine(TEXT("Good luck!"));
 
     PrintLine(TEXT("The Hidden Word is: %s "), *HiddenWord); //debug line
 }
@@ -65,7 +66,7 @@ void UBullCowCartridge::ProcessGuess(const FString& Guess)
         if (Guess == HiddenWord)
         {
             // success state
-            PrintLine(TEXT("Well done, that was correct!"));
+            PrintLine(TEXT("Well done, that guess was correct!"));
             PrintLine(TEXT("You Win!"));
             bGameOver = true; // set the game over flag
             PrintLine (TEXT("\nPress Enter to Play again"));
@@ -74,17 +75,17 @@ void UBullCowCartridge::ProcessGuess(const FString& Guess)
 
         else if (Guess != HiddenWord)
         {
-            int32 Bulls, Cows;
-            GetBullCows(Guess, Bulls, Cows);
+            FBullCowCount Score = GetBullCows(Guess); //grabs the count of bulls and cows that's returned from GetBullCows
 
             if (!IsIsogram(Guess))
             {
-                PrintLine(TEXT("% i Letters are Correct, %i are wrong"), Bulls, Cows);
+                PrintLine(TEXT("%i correct letters are in the right position.\nand %i correct letters are in the wrong position"), Score.Bulls, Score.Cows);
                 PrintLine(TEXT("But no repeating letters, try again!"));
                 return;
             }
 
-            PrintLine(TEXT("% i Letters are Correct, %i are wrong"), Bulls, Cows);
+            PrintLine(TEXT("%i are correct and in the right place.\n%i are correct and in the wrong position"), Score.Bulls, Score.Cows);
+            PrintLine(TEXT("\n\nRemember, the word is %i letters long\nYou now have %i guesses left"), HiddenWord.Len(), Lives);
             LoseLife(); //remove a life function
         }
 
@@ -104,19 +105,16 @@ void UBullCowCartridge::ProcessGuess(const FString& Guess)
 
 void UBullCowCartridge::LoseLife()
 {
-     PrintLine (TEXT("That was incorrect"));
-
     if (Lives > 0)
     {
         --Lives; //minus a life
-        PrintLine(TEXT("the word is %i letters long\nYou have %i Lives left"), HiddenWord.Len(), Lives);
-        PrintLine (TEXT("Please try a new guess"));  //prompt to guess again
+        PrintLine (TEXT("Please try again!"));  //prompt to guess again
         return;
     }
 
     if (Lives <= 0)
     {
-        PrintLine (TEXT("And you have run out of lives!\nGame Over"));
+        PrintLine (TEXT("But you have run out of guesses!\nThe Game is over"));
         PrintLine (TEXT("\nThe Hidden Word was: %s "), *HiddenWord);
         bGameOver = true; // set the game over flag
         PrintLine (TEXT("Press Enter to Play again"));
@@ -143,28 +141,30 @@ bool UBullCowCartridge::IsIsogram(const FString& Word) const
     return true;
 }
 
-void UBullCowCartridge::GetBullCows(const FString& Guess, int32& BullCount, int32& CowCount) const
+FBullCowCount UBullCowCartridge::GetBullCows(const FString& Guess) const
 {
-    BullCount = 0;
-    CowCount = 0;
+    FBullCowCount Count; //instantiate struct - ensures bulls and cows are set to 0 in .h file
 
     for (int32 GuessIndex = 0; GuessIndex < Guess.Len(); GuessIndex++)
     {
         if (Guess [GuessIndex] == HiddenWord[GuessIndex])
         {
-            BullCount++;
-            continue;
+            Count.Bulls++; // increments value of bulls from .h file
+            continue; // continues looping this loop rather than the next one if it's found a match
         }
 
         for (int32 HiddenIndex = 0; HiddenIndex < HiddenWord.Len(); HiddenIndex++)
         {
             if (Guess [GuessIndex] == HiddenWord[HiddenIndex])
             {
-                CowCount++;
+                Count.Cows++; // increments value of cows from .h file
+                break; // avoids wasting time on addiitonal loops once it finds a match
             }
         }
         
     }
+
+    return Count; //returns the value of both bull and cow counts
     
 }
 
