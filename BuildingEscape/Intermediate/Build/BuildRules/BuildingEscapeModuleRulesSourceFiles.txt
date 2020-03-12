@@ -1,0 +1,3 @@
+C:\Users\bentarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Source\BuildingEscape\BuildingEscape.Build.cs
+C:\Users\bentarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Source\BuildingEscape.Target.cs
+C:\Users\bentarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Source\BuildingEscapeEditor.Target.cs
