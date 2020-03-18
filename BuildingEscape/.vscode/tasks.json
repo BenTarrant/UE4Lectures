@@ -9,13 +9,13 @@
 				"BuildingEscape",
 				"Win32",
 				"Debug",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -26,7 +26,7 @@
 				"BuildingEscape",
 				"Win32",
 				"Debug",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -35,7 +35,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -46,13 +46,13 @@
 				"BuildingEscape",
 				"Win32",
 				"Debug",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -63,13 +63,13 @@
 				"BuildingEscape",
 				"Win32",
 				"DebugGame",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -80,7 +80,7 @@
 				"BuildingEscape",
 				"Win32",
 				"DebugGame",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -89,7 +89,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -100,13 +100,13 @@
 				"BuildingEscape",
 				"Win32",
 				"DebugGame",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -117,13 +117,13 @@
 				"BuildingEscape",
 				"Win32",
 				"Development",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -134,7 +134,7 @@
 				"BuildingEscape",
 				"Win32",
 				"Development",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -143,7 +143,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -154,13 +154,13 @@
 				"BuildingEscape",
 				"Win32",
 				"Development",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -171,13 +171,13 @@
 				"BuildingEscape",
 				"Win32",
 				"Shipping",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -188,7 +188,7 @@
 				"BuildingEscape",
 				"Win32",
 				"Shipping",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -197,7 +197,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -208,13 +208,13 @@
 				"BuildingEscape",
 				"Win32",
 				"Shipping",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -225,13 +225,13 @@
 				"BuildingEscape",
 				"Win32",
 				"Test",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -242,7 +242,7 @@
 				"BuildingEscape",
 				"Win32",
 				"Test",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -251,7 +251,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -262,13 +262,13 @@
 				"BuildingEscape",
 				"Win32",
 				"Test",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -279,13 +279,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Debug",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -296,7 +296,7 @@
 				"BuildingEscape",
 				"Win64",
 				"Debug",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -305,7 +305,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -316,13 +316,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Debug",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -333,13 +333,13 @@
 				"BuildingEscape",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -350,7 +350,7 @@
 				"BuildingEscape",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -359,7 +359,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -370,13 +370,13 @@
 				"BuildingEscape",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -387,13 +387,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Development",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -404,7 +404,7 @@
 				"BuildingEscape",
 				"Win64",
 				"Development",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -413,7 +413,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -424,13 +424,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Development",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -441,13 +441,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Shipping",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -458,7 +458,7 @@
 				"BuildingEscape",
 				"Win64",
 				"Shipping",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -467,7 +467,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -478,13 +478,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Shipping",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -495,13 +495,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Test",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -512,7 +512,7 @@
 				"BuildingEscape",
 				"Win64",
 				"Test",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -521,7 +521,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -532,13 +532,13 @@
 				"BuildingEscape",
 				"Win64",
 				"Test",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -549,13 +549,13 @@
 				"BuildingEscape",
 				"IOS",
 				"Debug",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -566,7 +566,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Debug",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -575,7 +575,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -586,13 +586,13 @@
 				"BuildingEscape",
 				"IOS",
 				"Debug",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -603,13 +603,13 @@
 				"BuildingEscape",
 				"IOS",
 				"DebugGame",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -620,7 +620,7 @@
 				"BuildingEscape",
 				"IOS",
 				"DebugGame",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -629,7 +629,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -640,13 +640,13 @@
 				"BuildingEscape",
 				"IOS",
 				"DebugGame",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -657,13 +657,13 @@
 				"BuildingEscape",
 				"IOS",
 				"Development",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -674,7 +674,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Development",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -683,7 +683,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -694,13 +694,13 @@
 				"BuildingEscape",
 				"IOS",
 				"Development",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -711,13 +711,13 @@
 				"BuildingEscape",
 				"IOS",
 				"Shipping",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -728,7 +728,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Shipping",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -737,7 +737,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -748,13 +748,13 @@
 				"BuildingEscape",
 				"IOS",
 				"Shipping",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -765,13 +765,13 @@
 				"BuildingEscape",
 				"IOS",
 				"Test",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -782,7 +782,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Test",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -791,7 +791,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -802,13 +802,13 @@
 				"BuildingEscape",
 				"IOS",
 				"Test",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -819,13 +819,13 @@
 				"BuildingEscape",
 				"HTML5",
 				"Debug",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -836,7 +836,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Debug",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -845,7 +845,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -856,13 +856,13 @@
 				"BuildingEscape",
 				"HTML5",
 				"Debug",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -873,13 +873,13 @@
 				"BuildingEscape",
 				"HTML5",
 				"DebugGame",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -890,7 +890,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"DebugGame",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -899,7 +899,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -910,13 +910,13 @@
 				"BuildingEscape",
 				"HTML5",
 				"DebugGame",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -927,13 +927,13 @@
 				"BuildingEscape",
 				"HTML5",
 				"Development",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -944,7 +944,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Development",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -953,7 +953,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -964,13 +964,13 @@
 				"BuildingEscape",
 				"HTML5",
 				"Development",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -981,13 +981,13 @@
 				"BuildingEscape",
 				"HTML5",
 				"Shipping",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -998,7 +998,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Shipping",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1007,7 +1007,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -1018,13 +1018,13 @@
 				"BuildingEscape",
 				"HTML5",
 				"Shipping",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -1035,13 +1035,13 @@
 				"BuildingEscape",
 				"HTML5",
 				"Test",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -1052,7 +1052,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Test",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1061,7 +1061,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -1072,13 +1072,13 @@
 				"BuildingEscape",
 				"HTML5",
 				"Test",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -1089,13 +1089,13 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"Debug",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -1106,7 +1106,7 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"Debug",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1115,7 +1115,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -1126,13 +1126,13 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"Debug",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -1143,13 +1143,13 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -1160,7 +1160,7 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1169,7 +1169,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -1180,13 +1180,13 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -1197,13 +1197,13 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"Development",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -1214,7 +1214,7 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"Development",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1223,7 +1223,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		},
 		{
@@ -1234,13 +1234,13 @@
 				"BuildingEscapeEditor",
 				"Win64",
 				"Development",
-				"C:\\Users\\bentarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
+				"C:\\Users\\Ben Tarrant\\Documents\\GitHub\\UE4Lectures\\BuildingEscape\\BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "D:\\UE4\\UE_4.22"
+				"cwd": "D:\\Games\\Epic\\UE_4.22"
 			}
 		}
 	]
