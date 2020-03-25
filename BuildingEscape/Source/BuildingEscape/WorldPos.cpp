@@ -2,6 +2,7 @@
 
 
 #include "WorldPos.h"
+#define print(text) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::White,text)
 
 // Sets default values for this component's properties
 UWorldPos::UWorldPos()
@@ -19,6 +20,9 @@ void UWorldPos::BeginPlay()
 {
 	Super::BeginPlay();
 
+	UE_LOG(LogTemp, Warning, TEXT("This is a warning"));
+	UE_LOG(LogTemp, Error, TEXT("This is an error"));
+	UE_LOG(LogTemp, Display, TEXT("This is a display"));
 	// ...
 	
 }
