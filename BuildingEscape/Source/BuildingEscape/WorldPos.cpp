@@ -2,7 +2,8 @@
 
 
 #include "WorldPos.h"
-#define print(text) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::White,text)
+#include "GameFramework/Actor.h"
+#include "Math/Vector.h"
 
 // Sets default values for this component's properties
 UWorldPos::UWorldPos()
@@ -20,9 +21,17 @@ void UWorldPos::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Warning, TEXT("This is a warning"));
-	UE_LOG(LogTemp, Error, TEXT("This is an error"));
-	UE_LOG(LogTemp, Display, TEXT("This is a display"));
+	// FString Log = TEXT("Hello!"); //Create an initialise Fstring variable called Log
+	// FString* PtrLog = &Log; //Create a pointer that points to the address of Log in memory
+	// PtrLog -> Len(); //Derefernece the item in memory to address member variables like Len using PtrName -> MemberVariable();  could also use (*PtrName).MemberVariable();
+	// UE_LOG (LogTemp, Warning, TEXT("%s"), **PtrLog);
+
+	
+	FString ActorName = GetOwner() -> GetName(); //Decalre Fstring variable called ActorName, use the pointer function get owner and get name
+	UE_LOG (LogTemp, Warning, TEXT("This componment is attached to: %s"), *ActorName); //print the dereferenced value of what is pointed at (Actor Name)
+
+	FString ActorTransform = GetOwner() -> GetActorLocation().ToString(); //Fstring variable ActorTransform, use pointer to point to owner then grab the vector of location - covert Vector to String
+	UE_LOG (LogTemp, Warning, TEXT("This componment is located at: %s"), *ActorTransform); //Print the dereferenced value of the ActorLocation to log
 	// ...
 	
 }
