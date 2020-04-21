@@ -1,0 +1,1418 @@
+﻿Log file open, 04/21/20 08:50:39
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: BuildingEscape
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.269804
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Games/Epic/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Engine.ini]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Engine.ini]
+[2020.04.21-07.50.39:695][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Engine.ini]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.21-07.50.39:695][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Engine.ini]
+[2020.04.21-07.50.39:696][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.21-07.50.39:696][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.21-07.50.39:696][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.21-07.50.39:696][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.21-07.50.39:696][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.21-07.50.39:696][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.21-07.50.39:696][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.04.21-07.50.39:696][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.21-07.50.39:696][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.21-07.50.39:696][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.21-07.50.39:696][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.21-07.50.39:696][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.21-07.50.39:696][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.21-07.50.39:696][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Engine.ini]
+[2020.04.21-07.50.39:696][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Engine.ini]
+[2020.04.21-07.50.39:700][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.21-07.50.39:700][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2020.04.21-07.50.39:700][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.21-07.50.39:701][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.21-07.50.39:701][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.21-07.50.39:701][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.21-07.50.39:717][  0]LogHAL: Display: Platform has ~ 16 GB [17114337280 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.21-07.50.39:717][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.04.21-07.50.39:717][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.21-07.50.39:717][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2020.04.21-07.50.39:717][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.21-07.50.39:717][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.21-07.50.39:717][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2020.04.21-07.50.39:717][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.21-07.50.39:717][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2020.04.21-07.50.39:717][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.21-07.50.39:717][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.21-07.50.39:717][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.21-07.50.39:717][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.21-07.50.39:718][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.21-07.50.39:719][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.21-07.50.39:719][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.21-07.50.39:719][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Config/Windows/Engine.ini]
+[2020.04.21-07.50.39:719][  0]LogInit: Computer: DESKTOP-3CDSSKT
+[2020.04.21-07.50.39:719][  0]LogInit: User: BenTarrant
+[2020.04.21-07.50.39:719][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.21-07.50.39:719][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.21-07.50.39:719][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.21-07.50.39:719][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.21-07.50.39:719][  0]LogMemory: Process Physical Memory: 96.45 MB used, 96.46 MB peak
+[2020.04.21-07.50.39:719][  0]LogMemory: Process Virtual Memory: 90.79 MB used, 90.79 MB peak
+[2020.04.21-07.50.39:719][  0]LogMemory: Physical Memory: 6057.26 MB used,  10264.25 MB free, 16321.50 MB total
+[2020.04.21-07.50.39:719][  0]LogMemory: Virtual Memory: 4644.80 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2020.04.21-07.50.39:738][  0]LogInit: Using OS detected language (en-GB).
+[2020.04.21-07.50.39:738][  0]LogInit: Using OS detected locale (en-GB).
+[2020.04.21-07.50.39:739][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.04.21-07.50.39:874][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.21-07.50.39:910][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.21-07.50.39:910][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.21-07.50.40:127][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.21-07.50.40:127][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.21-07.50.40:197][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.04.21-07.50.40:197][  0]LogD3D11RHI:       8088/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.04.21-07.50.40:199][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.21-07.50.40:199][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.21-07.50.40:199][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.21-07.50.40:206][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.21-07.50.40:206][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.21-07.50.40:206][  0]LogWindows: EnumDisplayDevices:
+[2020.04.21-07.50.40:206][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.04.21-07.50.40:207][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.04.21-07.50.40:207][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.04.21-07.50.40:207][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.04.21-07.50.40:208][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.04.21-07.50.40:208][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.04.21-07.50.40:208][  0]LogD3D11RHI:   Driver Version: 442.59 (internal:26.21.14.4259, unified:442.59)
+[2020.04.21-07.50.40:208][  0]LogD3D11RHI:      Driver Date: 3-4-2020
+[2020.04.21-07.50.40:208][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.04.21-07.50.40:254][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.21-07.50.40:263][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.21-07.50.40:263][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.21-07.50.40:264][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.21-07.50.40:270][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.21-07.50.40:540][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.04.21-07.50.40:552][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.04.21-07.50.40:564][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.04.21-07.50.40:576][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.04.21-07.50.40:589][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.04.21-07.50.40:601][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.04.21-07.50.40:613][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.21-07.50.40:625][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.04.21-07.50.40:630][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.04.21-07.50.40:707][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.04.21-07.50.40:709][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.04.21-07.50.40:754][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.04.21-07.50.40:754][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.04.21-07.50.40:777][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.04.21-07.50.40:777][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.04.21-07.50.40:788][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.04.21-07.50.40:799][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.21-07.50.40:811][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.04.21-07.50.40:824][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.04.21-07.50.40:864][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.04.21-07.50.40:864][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.04.21-07.50.40:864][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.21-07.50.40:871][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.21-07.50.40:918][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Intermediate/Shaders/WorkingDirectory/17300/).
+[2020.04.21-07.50.40:919][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ben Tarrant/AppData/Local/Temp/UnrealShaderWorkingDir/12DEAD01458C84929417CC8F9F05A9B6/'.
+[2020.04.21-07.50.40:920][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.21-07.50.40:920][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.21-07.50.40:920][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.21-07.50.41:416][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.21-07.50.41:459][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/Ben Tarrant/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.04.21-07.50.41:459][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ben Tarrant/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.04.21-07.50.41:459][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.21-07.50.41:459][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.21-07.50.41:459][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.21-07.50.41:459][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.21-07.50.41:470][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.21-07.50.41:470][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.21-07.50.41:470][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.21-07.50.41:482][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ben Tarrant/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.21-07.50.41:482][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.21-07.50.41:482][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.21-07.50.41:501][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.21-07.50.41:502][  0]LogSlate: Using FreeType 2.6.0
+[2020.04.21-07.50.41:503][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.21-07.50.41:586][  0]LogAssetRegistry: FAssetRegistry took 0.0324 seconds to start up
+[2020.04.21-07.50.41:886][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.21-07.50.42:007][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.21-07.50.42:007][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.21-07.50.42:007][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.21-07.50.42:007][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.21-07.50.42:007][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.21-07.50.42:016][  0]LogNetVersion: BuildingEscape 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1788021529)
+[2020.04.21-07.50.42:425][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.052223 seconds
+[2020.04.21-07.50.42:431][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.04.21-07.50.42:431][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.04.21-07.50.42:431][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.21-07.50.43:279][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.21-07.50.43:293][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.21-07.50.43:419][  0]SourceControl: Source control is disabled
+[2020.04.21-07.50.43:419][  0]SourceControl: Source control is disabled
+[2020.04.21-07.50.43:420][  0]SourceControl: Source control is disabled
+[2020.04.21-07.50.43:421][  0]SourceControl: Source control is disabled
+[2020.04.21-07.50.43:500][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.21-07.50.43:602][  0]LogOcInput: OculusInput pre-init called
+[2020.04.21-07.50.44:292][  0]LogEngine: Initializing Engine...
+[2020.04.21-07.50.44:293][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.21-07.50.44:294][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.21-07.50.44:476][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.21-07.50.44:487][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.21-07.50.44:524][  0]LogInit: XAudio2 using 'VC279 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.21-07.50.44:547][  0]LogInit: FAudioDevice initialized.
+[2020.04.21-07.50.44:548][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.21-07.50.44:608][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Ben Tarrant/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.04.21-07.50.44:613][  0]LogInit: Texture streaming: Enabled
+[2020.04.21-07.50.44:625][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.21-07.50.44:654][  0]LogInit: Transaction tracking system initialized
+[2020.04.21-07.50.44:672][  0]BlueprintLog: New page: Editor Load
+[2020.04.21-07.50.44:736][  0]LocalizationService: Localization service is disabled
+[2020.04.21-07.50.45:038][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/' took 0.02s
+[2020.04.21-07.50.45:038][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.21-07.50.45:038][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.21-07.50.45:209][  0]SourceControl: Source control is disabled
+[2020.04.21-07.50.45:209][  0]Cmd: MAP LOAD FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/StarterContent/Maps/Building_Escape.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.21-07.50.45:209][  0]LightingResults: New page: Lighting Build
+[2020.04.21-07.50.45:211][  0]MapCheck: New page: Map Check
+[2020.04.21-07.50.45:211][  0]LightingResults: New page: Lighting Build
+[2020.04.21-07.50.45:230][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.04.21-07.50.45:913][  0]LogAIModule: Creating AISystem for world Building_Escape
+[2020.04.21-07.50.45:972][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.21-07.50.45:999][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.04.21-07.50.45:999][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.21-07.50.46:000][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.251ms to complete.
+[2020.04.21-07.50.46:000][  0]LogFileHelpers: Loading map 'Building_Escape' took 0.790
+[2020.04.21-07.50.46:421][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-07.50.46:430][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-07.50.46:436][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-07.50.46:442][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.21-07.50.46:466][  0]LogCollectionManager: Loaded 0 collections in 0.000720 seconds
+[2020.04.21-07.50.46:552][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Collections/' took 0.01s
+[2020.04.21-07.50.46:552][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Developers/BenTarrant/Collections/' took 0.01s
+[2020.04.21-07.50.46:552][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Collections/' took 0.00s
+[2020.04.21-07.50.46:552][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.04.21-07.50.46:559][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2734 classes and 661 folders.
+[2020.04.21-07.50.46:604][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.21-07.50.46:655][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:694][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:709][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:724][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:730][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:736][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:742][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:751][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:757][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:770][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:776][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:783][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:790][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:797][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:804][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:831][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:838][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:845][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:853][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:862][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:870][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:878][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:886][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:914][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.46:939][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.21-07.50.47:284][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.21-07.50.47:335][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2020.04.21-07.50.47:598][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.21-07.50.47:600][  0]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.21-07.50.47:630][  0]LogSlate: Took 0.014351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.21-07.50.47:904][  0]LogRenderer: Reallocating scene render targets to support 1208x616 Format 10 NumSamples 1 (Frame:1).
+[2020.04.21-07.50.48:077][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.21-07.50.48:077][  0]LogLoad: (Engine Initialization) Total time: 10.40 seconds
+[2020.04.21-07.50.48:077][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.21-07.50.48:123][  0]LogAssetRegistry: Asset discovery search completed in 6.5595 seconds
+[2020.04.21-07.50.48:124][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.04.21-07.50.48:124][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2020.04.21-07.50.48:140][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.21-07.50.48:210][  0]LogSlate: Took 0.017796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.21-07.50.56:204][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.21-07.50.57:011][965]LogTemp: IOS device listing is disabled (to many failed attempts)!
+[2020.04.21-07.51.10:120][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-07.51.10:870][ 59]LogMaterial: Warning: Material /Game/Models/Mat_Concrete.Mat_Concrete needed to have new flag set bUsedWithStaticLighting !
+[2020.04.21-07.51.10:873][ 59]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-07.51.14:314][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-07.51.20:739][145]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-07.51.23:792][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.21-07.51.25:765][728]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.21-07.51.25:775][728]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.21-07.51.47:624][300]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.21-07.51.49:894][570]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-07.52.02:356][ 56]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-07.52.30:727][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Wood" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Wood.uasset" SILENT=true
+[2020.04.21-07.52.30:765][880]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Wood96C218C1431CB0A24D11F89C86EBCB13.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Wood.uasset'
+[2020.04.21-07.52.30:800][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Mat_Inst_Wood" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Inst_Wood.uasset" SILENT=true
+[2020.04.21-07.52.30:815][880]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Inst_WoodF28B4CFC4A8544F0DC7F0FA83368A8EE.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Inst_Wood.uasset'
+[2020.04.21-07.52.30:821][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Mat_Inst_Wood" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Mat_Inst_Wood.uasset" SILENT=true
+[2020.04.21-07.52.30:839][880]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Inst_Wood8C8EF4144AB27407533B5E96BB8425C6.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Mat_Inst_Wood.uasset'
+[2020.04.21-07.52.30:872][880]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Inst_Concrete8502BAA84BCF6A6C5234FAB52990BE67.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Inst_Concrete.uasset'
+[2020.04.21-07.52.30:877][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Mat_Inst_Concrete" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Mat_Inst_Concrete.uasset" SILENT=true
+[2020.04.21-07.52.30:890][880]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Inst_Concrete0A18143C4DE11644C8475FB8C5960225.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Mat_Inst_Concrete.uasset'
+[2020.04.21-07.52.30:904][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Mat_Inst_Brass" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Inst_Brass.uasset" SILENT=true
+[2020.04.21-07.52.30:920][880]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Inst_BrassD79FA56344526391C7C701A72AE517D9.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Inst_Brass.uasset'
+[2020.04.21-07.52.30:925][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Mat_Inst_Brass" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Mat_Inst_Brass.uasset" SILENT=true
+[2020.04.21-07.52.30:938][880]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Inst_Brass2971D69849D0DE69F7999DB2CCCCA8E4.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Mat_Inst_Brass.uasset'
+[2020.04.21-07.52.30:974][880]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Concrete_FloorA79E6B8648AC549F2A9F818428E03E13.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Concrete_Floor.uasset'
+[2020.04.21-07.52.30:989][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Mat_Concrete" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Concrete.uasset" SILENT=true
+[2020.04.21-07.52.31:006][880]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Concrete95513C5644946FC4296B748ECDFD49AF.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Concrete.uasset'
+[2020.04.21-07.52.31:020][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Mat_Brass" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Brass.uasset" SILENT=true
+[2020.04.21-07.52.31:037][880]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_BrassCD89CEE849F37490369DF293DAB2527E.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Brass.uasset'
+[2020.04.21-07.52.31:235][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.04.21-07.52.31:255][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.04.21-07.52.31:274][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.04.21-07.52.31:293][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.04.21-07.52.31:314][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.04.21-07.52.31:334][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.04.21-07.52.31:363][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/SM_Door" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/SM_Door.uasset" SILENT=true
+[2020.04.21-07.52.31:396][880]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/SM_Door9AA473064C1112B7B357C09248AE4E35.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/SM_Door.uasset'
+[2020.04.21-07.52.31:409][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/SM_Frame" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/SM_Frame.uasset" SILENT=true
+[2020.04.21-07.52.31:432][880]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/SM_Frame13D76403443CEE8A6B21D6A9D22E4B41.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/SM_Frame.uasset'
+[2020.04.21-07.52.36:455][460]LogAssetEditorManager: Opening Asset editor for Material /Game/Models/Materials/Mat_Concrete_Floor.Mat_Concrete_Floor
+[2020.04.21-07.52.36:481][460]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-07.52.37:226][460]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-07.52.37:252][460]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-07.52.37:255][460]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-07.52.37:306][460]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.21-07.52.37:365][460]LogSlate: Took 0.014928 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.21-07.52.37:676][461]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-07.52.38:353][506]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-07.52.39:519][601]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-07.52.40:608][693]MaterialEditorStats: Base pass shader: 110 instructions
+[2020.04.21-07.52.40:608][693]MaterialEditorStats: Base pass shader with Surface Lightmap: 138 instructions
+[2020.04.21-07.52.40:608][693]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2020.04.21-07.52.40:608][693]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-07.52.40:608][693]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-07.52.40:608][693]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-07.52.40:608][693]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-07.52.43:012][964]LogSlate: Window 'Mat_Concrete_Floor' being destroyed
+[2020.04.21-07.53.22:304][454]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-07.53.22:327][454]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-07.53.22:330][454]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.21-07.53.22:360][454]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-07.53.22:791][503]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-07.53.23:383][574]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-07.53.24:276][681]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-07.53.25:444][820]MaterialEditorStats: Base pass shader: 110 instructions
+[2020.04.21-07.53.25:444][820]MaterialEditorStats: Base pass shader with Surface Lightmap: 138 instructions
+[2020.04.21-07.53.25:444][820]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2020.04.21-07.53.25:444][820]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-07.53.25:444][820]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-07.53.25:444][820]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-07.53.25:444][820]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-07.53.28:525][178]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-07.53.28:547][178]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.21-07.53.28:563][178]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-07.53.28:577][178]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-07.53.28:801][203]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-07.53.29:385][273]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-07.53.30:260][378]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-07.53.31:388][513]MaterialEditorStats: Base pass shader: 110 instructions
+[2020.04.21-07.53.31:388][513]MaterialEditorStats: Base pass shader with Surface Lightmap: 138 instructions
+[2020.04.21-07.53.31:388][513]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2020.04.21-07.53.31:388][513]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-07.53.31:389][513]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-07.53.31:389][513]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-07.53.31:389][513]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-07.53.34:991][937]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-07.53.35:013][937]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-07.53.35:013][937]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.21-07.53.35:043][937]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-07.53.35:251][960]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-07.53.35:863][ 33]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-07.53.36:736][138]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-07.53.37:865][273]MaterialEditorStats: Base pass shader: 110 instructions
+[2020.04.21-07.53.37:865][273]MaterialEditorStats: Base pass shader with Surface Lightmap: 138 instructions
+[2020.04.21-07.53.37:865][273]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2020.04.21-07.53.37:865][273]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-07.53.37:865][273]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-07.53.37:865][273]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-07.53.37:865][273]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-07.54.28:005][ 35]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-07.54.28:024][ 35]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-07.54.28:053][ 35]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-07.54.28:066][ 35]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.21-07.54.29:399][192]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-07.54.30:444][317]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-07.54.31:456][438]MaterialEditorStats: Base pass shader: 110 instructions
+[2020.04.21-07.54.31:456][438]MaterialEditorStats: Base pass shader with Surface Lightmap: 138 instructions
+[2020.04.21-07.54.31:456][438]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2020.04.21-07.54.31:456][438]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-07.54.31:456][438]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-07.54.31:456][438]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-07.54.31:456][438]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.00.48:524][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.04.21-08.00.49:038][442]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Building_Escape_Auto146C68D284659D391E1B5A1BFE6EE03D5.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto1.umap'
+[2020.04.21-08.00.49:057][442]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Building_Escape' took 0.553
+[2020.04.21-08.00.49:058][442]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.553
+[2020.04.21-08.01.34:046][731]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.01.34:064][731]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.01.34:090][733]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.01.34:709][806]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.01.34:725][806]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.01.34:730][806]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.01.34:750][806]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.01.35:283][869]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.01.36:329][994]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.01.37:545][138]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.01.37:545][138]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.01.37:545][138]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.01.37:545][138]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.01.37:545][138]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.01.37:545][138]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.01.37:545][138]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.01.40:738][521]LogMaterialEditor: Saving and Compiling material Mat_Concrete_Floor
+[2020.04.21-08.01.42:132][521]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.01.42:199][521]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.01.42:208][521]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.01.42:232][521]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.01.42:277][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2020.04.21-08.01.42:286][521]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.21-08.01.44:395][521]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.21-08.01.44:395][521]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.21-08.01.44:397][521]TextureStreamingBuild: Display: Compiling optional shaders took 2.121 seconds.
+[2020.04.21-08.01.44:507][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.04.21-08.01.47:036][521]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Concrete_FloorDADAEB88460D7E6AA4C962B24B3448DF.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Concrete_Floor.uasset'
+[2020.04.21-08.01.53:652][311]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.02.04:023][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.02.07:770][995]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.07:788][995]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.07:809][996]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.02.08:557][ 86]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.02.09:523][202]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.02.09:940][251]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.09:964][251]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.09:982][251]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.02.10:588][322]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.02.11:571][440]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.02.12:767][582]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.02.12:767][582]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.02.12:767][582]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.02.12:767][582]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.02.12:767][582]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.02.12:767][582]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.02.12:767][582]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.02.14:699][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.02.17:075][ 96]LogMaterialEditor: Saving and Compiling material Mat_Concrete_Floor
+[2020.04.21-08.02.17:431][ 96]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.17:495][ 96]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.02.17:504][ 96]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.17:523][ 96]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.17:564][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.04.21-08.02.17:572][ 96]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.21-08.02.19:627][ 96]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.21-08.02.19:627][ 96]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.21-08.02.19:629][ 96]TextureStreamingBuild: Display: Compiling optional shaders took 2.065 seconds.
+[2020.04.21-08.02.19:656][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.04.21-08.02.22:272][ 96]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Concrete_Floor7E069D51478371B2D2BEAF9F5A890207.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Concrete_Floor.uasset'
+[2020.04.21-08.02.32:666][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.02.35:028][620]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.35:046][620]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.35:066][621]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.02.35:538][678]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.02.36:522][796]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.02.37:716][938]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.02.37:716][938]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.02.37:716][938]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.02.37:716][938]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.02.37:716][938]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.02.37:716][938]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.02.37:716][938]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.02.38:346][ 13]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.38:364][ 13]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.38:396][ 16]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.02.38:937][ 78]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.02.39:888][192]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.02.40:871][309]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.40:889][309]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.02.40:894][309]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.40:923][311]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.02.41:450][372]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.02.42:417][488]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.02.43:641][634]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.02.43:641][634]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.02.43:641][634]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.02.43:641][634]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.02.43:641][634]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.02.43:641][634]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.02.43:641][634]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.02.45:446][850]LogMaterialEditor: Saving and Compiling material Mat_Concrete_Floor
+[2020.04.21-08.02.45:797][850]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.45:863][850]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.02.45:869][850]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.45:893][850]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.45:938][850]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.04.21-08.02.45:948][850]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.21-08.02.48:039][850]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.21-08.02.48:039][850]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.21-08.02.48:040][850]TextureStreamingBuild: Display: Compiling optional shaders took 2.102 seconds.
+[2020.04.21-08.02.48:068][850]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.04.21-08.02.50:682][850]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Concrete_FloorA2A772394B232DAA0794F5A1DCEEA4B1.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Concrete_Floor.uasset'
+[2020.04.21-08.02.53:955][208]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.02.53:991][209]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.02.54:016][209]LogSlate: Took 0.023214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.21-08.02.54:465][263]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.02.55:395][372]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.02.56:590][515]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.02.56:590][515]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.02.56:590][515]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.02.56:590][515]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.02.56:590][515]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.02.56:590][515]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.02.56:590][515]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.03.03:510][342]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.03.03:529][342]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.03.03:554][344]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.03.04:026][399]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.03.04:992][515]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.03.06:120][650]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.03.06:120][650]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.03.06:120][650]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.03.06:120][650]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.03.06:120][650]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.03.06:121][650]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.03.06:121][650]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.03.24:265][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.03.28:730][348]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.03.28:762][349]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.03.29:444][431]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.03.30:385][544]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.03.31:514][679]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.03.31:514][679]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.03.31:514][679]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.03.31:514][679]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.03.31:514][679]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.03.31:514][679]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.03.31:514][679]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.03.43:104][ 66]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.03.43:121][ 66]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.03.43:124][ 66]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.21-08.03.43:689][131]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.03.44:831][268]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.03.45:792][382]MaterialEditorStats: Base pass shader: 110 instructions
+[2020.04.21-08.03.45:792][382]MaterialEditorStats: Base pass shader with Surface Lightmap: 138 instructions
+[2020.04.21-08.03.45:792][382]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2020.04.21-08.03.45:792][382]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.04.21-08.03.45:792][382]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.03.45:792][382]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.03.47:663][606]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.03.47:686][608]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.03.48:156][664]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.03.49:083][775]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.03.50:207][909]MaterialEditorStats: Base pass shader: 110 instructions
+[2020.04.21-08.03.50:207][909]MaterialEditorStats: Base pass shader with Surface Lightmap: 138 instructions
+[2020.04.21-08.03.50:207][909]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2020.04.21-08.03.50:207][909]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.04.21-08.03.50:207][909]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.03.50:207][909]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.03.57:386][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.03.57:854][826]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.03.57:879][828]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.03.58:358][884]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.03.59:279][993]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.03.59:770][ 52]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.03.59:871][ 62]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.04.00:494][136]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.04.01:404][245]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.04.02:601][387]MaterialEditorStats: Base pass shader: 112 instructions
+[2020.04.21-08.04.02:601][387]MaterialEditorStats: Base pass shader with Surface Lightmap: 140 instructions
+[2020.04.21-08.04.02:601][387]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 186 instructions
+[2020.04.21-08.04.02:601][387]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.04.02:601][387]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.04.02:601][387]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.04.02:601][387]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.04.08:402][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.04.13:279][668]LogMaterialEditor: Saving and Compiling material Mat_Concrete_Floor
+[2020.04.21-08.04.13:633][668]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.04.13:707][668]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.04.13:708][668]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.04.13:731][668]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.04.13:772][668]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.04.21-08.04.13:780][668]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.21-08.04.15:901][668]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.21-08.04.15:901][668]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.21-08.04.15:903][668]TextureStreamingBuild: Display: Compiling optional shaders took 2.131 seconds.
+[2020.04.21-08.04.15:932][668]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.04.21-08.04.18:524][668]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Concrete_Floor1F5D4368451530A527286EBF312A146B.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Concrete_Floor.uasset'
+[2020.04.21-08.04.24:291][358]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.04.24:310][358]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.04.24:335][360]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.04.24:822][417]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.04.24:840][417]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.04.24:844][417]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.04.24:869][418]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.04.25:395][480]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.04.26:430][604]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.04.27:637][748]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.04.27:637][748]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.04.27:637][748]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.04.27:637][748]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.04.27:637][748]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.04.27:637][748]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.04.27:637][748]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.04.46:979][813]LogMaterialEditor: Saving and Compiling material Mat_Concrete_Floor
+[2020.04.21-08.04.47:316][813]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.04.47:381][813]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.04.47:386][813]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.04.47:408][813]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.04.47:447][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.04.21-08.04.47:456][813]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.21-08.04.49:535][813]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.21-08.04.49:535][813]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.21-08.04.49:537][813]TextureStreamingBuild: Display: Compiling optional shaders took 2.088 seconds.
+[2020.04.21-08.04.49:564][813]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.04.21-08.04.52:030][813]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Concrete_Floor5E0250814151B1FE8616FD80D16D3B4E.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Concrete_Floor.uasset'
+[2020.04.21-08.05.08:197][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Mat_Wood_Floor" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Wood_Floor.uasset" SILENT=true
+[2020.04.21-08.05.08:213][745]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Wood_Floor8526655C4199AC2581E927927F8E8BB4.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Wood_Floor.uasset'
+[2020.04.21-08.05.08:286][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.04.21-08.05.08:308][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.04.21-08.05.08:326][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.04.21-08.05.36:096][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.06.26:742][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.21-08.06.27:498][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.21-08.07.00:881][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.07.05:702][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.21-08.07.06:716][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.21-08.07.06:797][217]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2020.04.21-08.07.11:824][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.08.16:936][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.08.31:289][137]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.08.31:319][137]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.08.31:332][137]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.21-08.08.31:339][137]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.08.31:745][182]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.08.32:417][262]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.08.33:371][374]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.08.34:556][516]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.08.34:556][516]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.08.34:556][516]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.08.34:556][516]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.08.34:556][516]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.08.34:556][516]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.08.34:556][516]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.08.39:944][162]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.08.39:963][162]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.08.39:990][162]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.21-08.08.39:998][162]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.08.40:232][187]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.08.40:867][263]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.08.41:808][376]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.08.42:987][517]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.08.42:987][517]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.08.42:987][517]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.08.42:987][517]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.08.42:987][517]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.08.42:987][517]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.08.42:987][517]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.08.58:398][364]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.08.58:428][364]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.08.58:442][364]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.21-08.08.58:449][364]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.08.58:675][388]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.08.59:385][472]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.09.00:284][580]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.09.01:464][721]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.09.01:464][721]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.09.01:464][721]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.09.01:464][721]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.09.01:464][721]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.09.01:464][721]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.09.01:464][721]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.09.07:941][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.09.09:016][622]LogMaterialEditor: Saving and Compiling material Mat_Wood_Floor
+[2020.04.21-08.09.09:372][622]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.09.09:445][622]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.09.09:445][622]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.09.09:467][622]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.09.09:509][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.04.21-08.09.09:521][622]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.21-08.09.11:654][622]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.21-08.09.11:654][622]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.21-08.09.11:656][622]TextureStreamingBuild: Display: Compiling optional shaders took 2.147 seconds.
+[2020.04.21-08.09.11:678][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.04.21-08.09.14:241][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Mat_Wood_Floor" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Wood_Floor.uasset" SILENT=true
+[2020.04.21-08.09.14:267][622]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Wood_FloorEA548F324328F64BFE8AF4A01103FCB4.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Wood_Floor.uasset'
+[2020.04.21-08.09.40:415][751]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.09.40:448][752]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.09.41:191][841]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.09.42:143][955]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.09.43:351][ 97]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.09.43:351][ 97]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.09.43:351][ 97]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.09.43:351][ 97]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.09.43:351][ 97]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.09.43:351][ 97]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.09.43:351][ 97]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.09.53:778][346]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.09.53:796][346]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.09.53:818][347]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.09.54:329][407]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.09.55:300][522]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.09.56:477][663]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.09.56:477][663]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.09.56:477][663]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.09.56:477][663]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.09.56:477][663]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.09.56:477][663]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.09.56:477][663]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.09.57:632][801]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.09.57:650][801]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.09.57:671][802]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.09.58:143][857]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.09.59:171][980]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.10.00:348][121]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.10.00:348][121]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.10.00:348][121]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.10.00:348][121]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.10.00:348][121]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.10.00:348][121]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.10.00:348][121]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.10.23:802][932]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.10.23:824][932]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.10.23:826][932]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.21-08.10.24:583][ 20]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.10.25:691][153]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.10.26:708][274]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.10.26:709][274]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.10.26:709][274]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.10.26:709][274]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.10.26:709][274]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.10.26:709][274]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.10.26:709][274]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.10.33:708][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.10.42:485][159]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.10.42:521][160]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.10.42:975][215]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.10.43:977][335]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.10.45:144][474]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.10.45:144][474]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.10.45:144][474]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.10.45:144][474]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.10.45:144][474]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.10.45:144][474]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.10.45:144][474]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.10.48:441][869]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.10.48:465][871]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.10.48:968][931]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.10.49:727][ 21]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.10.49:799][ 28]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.10.50:378][ 97]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.10.51:354][214]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.10.53:521][473]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.10.53:541][474]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.10.54:021][532]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.10.55:021][652]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.10.56:186][791]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.10.56:187][791]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.10.56:187][791]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.10.56:187][791]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.10.56:187][791]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.10.56:187][791]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.10.56:187][791]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.11.20:015][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.04.21-08.11.20:200][643]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Building_Escape_Auto2A3446C3040B18CE2D6C4E4AA5EC5E472.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto2.umap'
+[2020.04.21-08.11.20:203][643]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Building_Escape' took 0.207
+[2020.04.21-08.11.20:203][643]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.207
+[2020.04.21-08.11.36:089][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.11.37:497][711]LogMaterialEditor: Saving and Compiling material Mat_Wood_Floor
+[2020.04.21-08.11.37:847][711]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.11.37:920][711]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.11.37:920][711]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.11.37:942][711]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.11.37:987][711]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.04.21-08.11.37:996][711]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.21-08.11.40:249][711]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.21-08.11.40:249][711]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.21-08.11.40:251][711]TextureStreamingBuild: Display: Compiling optional shaders took 2.263 seconds.
+[2020.04.21-08.11.40:279][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.04.21-08.11.42:863][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Mat_Wood_Floor" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Wood_Floor.uasset" SILENT=true
+[2020.04.21-08.11.42:882][711]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Wood_Floor542D528F48AA048F7D6AC5BB210653F3.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Wood_Floor.uasset'
+[2020.04.21-08.11.59:979][760]LogMaterial: Display: Missing cached shader map for material Mat_Concrete_Floor, compiling. 
+[2020.04.21-08.12.00:003][762]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.12.00:480][819]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.12.01:467][937]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.12.12:310][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.12.55:744][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.12.55:949][151]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Models/Materials/Mat_Inst_Concrete.Mat_Inst_Concrete
+[2020.04.21-08.12.56:060][151]LogRenderer: Reallocating scene render targets to support 1336x920 Format 10 NumSamples 1 (Frame:1).
+[2020.04.21-08.13.17:408][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.13.19:071][903]LogAssetEditorManager: Opening Asset editor for Material /Game/Models/Materials/Mat_Concrete.Mat_Concrete
+[2020.04.21-08.13.19:074][903]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.13.19:142][903]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.13.19:159][903]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.13.19:191][903]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.13.19:204][903]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.21-08.13.19:942][980]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.13.20:968][103]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.13.21:947][220]MaterialEditorStats: Base pass shader: 110 instructions
+[2020.04.21-08.13.21:947][220]MaterialEditorStats: Base pass shader with Surface Lightmap: 138 instructions
+[2020.04.21-08.13.21:947][220]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2020.04.21-08.13.21:947][220]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.13.21:947][220]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.13.21:947][220]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.13.21:947][220]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.13.50:406][628]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.13.50:430][629]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.13.51:103][710]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.13.51:998][817]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.13.53:165][956]MaterialEditorStats: Base pass shader: 110 instructions
+[2020.04.21-08.13.53:165][956]MaterialEditorStats: Base pass shader with Surface Lightmap: 138 instructions
+[2020.04.21-08.13.53:165][956]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2020.04.21-08.13.53:165][956]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.13.53:165][956]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.13.53:165][956]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.13.53:165][956]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.13.57:144][432]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.13.57:171][433]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.13.57:611][486]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.13.58:529][596]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.13.59:577][721]MaterialEditorStats: Base pass shader: 110 instructions
+[2020.04.21-08.13.59:577][721]MaterialEditorStats: Base pass shader with Surface Lightmap: 138 instructions
+[2020.04.21-08.13.59:577][721]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2020.04.21-08.13.59:577][721]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.13.59:577][721]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.13.59:577][721]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.13.59:577][721]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.14.08:532][791]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.14.08:559][792]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.14.09:023][848]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.14.09:976][962]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.14.11:149][102]MaterialEditorStats: Base pass shader: 110 instructions
+[2020.04.21-08.14.11:149][102]MaterialEditorStats: Base pass shader with Surface Lightmap: 138 instructions
+[2020.04.21-08.14.11:149][102]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2020.04.21-08.14.11:149][102]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.14.11:149][102]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.14.11:149][102]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.14.11:149][102]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.14.13:026][146]LogSlate: Window 'Message' being destroyed
+[2020.04.21-08.14.16:479][557]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.14.16:507][558]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.14.16:954][612]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.14.17:899][725]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.14.19:023][859]MaterialEditorStats: Base pass shader: 110 instructions
+[2020.04.21-08.14.19:023][859]MaterialEditorStats: Base pass shader with Surface Lightmap: 138 instructions
+[2020.04.21-08.14.19:023][859]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2020.04.21-08.14.19:023][859]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.14.19:023][859]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.14.19:023][859]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.14.19:023][859]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.14.24:529][519]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.14.24:553][521]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.14.25:005][575]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.14.25:881][680]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.14.25:979][691]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.14.26:088][702]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.14.26:650][769]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.14.27:389][857]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.14.27:407][857]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.14.27:948][922]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.14.28:877][ 34]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.14.29:943][161]MaterialEditorStats: Base pass shader: 110 instructions
+[2020.04.21-08.14.29:943][161]MaterialEditorStats: Base pass shader with Surface Lightmap: 138 instructions
+[2020.04.21-08.14.29:943][161]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2020.04.21-08.14.29:943][161]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.14.29:943][161]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.14.29:943][161]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.14.29:943][161]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.14.37:496][ 62]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.14.37:522][ 63]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.14.37:963][116]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.14.38:879][226]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.14.40:005][360]MaterialEditorStats: Base pass shader: 110 instructions
+[2020.04.21-08.14.40:005][360]MaterialEditorStats: Base pass shader with Surface Lightmap: 138 instructions
+[2020.04.21-08.14.40:005][360]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2020.04.21-08.14.40:005][360]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.14.40:005][360]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.14.40:005][360]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.14.40:005][360]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.14.41:566][547]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.14.41:590][549]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.14.42:059][605]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.14.42:936][710]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.14.43:035][721]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.14.43:138][731]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.14.43:680][796]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.14.44:555][901]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.14.45:981][ 71]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.14.46:002][ 71]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.21-08.14.46:017][ 71]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.14.46:582][138]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.14.47:583][258]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.14.48:535][371]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.14.48:535][371]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.14.48:535][371]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.14.48:535][371]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.14.48:535][371]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.14.48:535][371]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.14.48:535][371]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.14.56:682][348]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.14.56:700][348]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.14.56:740][351]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.14.57:202][406]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.14.58:139][518]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.14.58:711][585]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.14.58:734][585]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.14.58:762][586]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.14.59:358][656]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.15.00:289][767]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.15.01:082][860]LogMaterialEditor: Saving and Compiling material Mat_Concrete
+[2020.04.21-08.15.01:477][860]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.15.01:540][860]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.15.01:548][860]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.15.01:568][860]LogMaterial: Display: Missing cached shader map for material Mat_Concrete, compiling. 
+[2020.04.21-08.15.01:610][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.04.21-08.15.01:620][860]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.21-08.15.03:601][860]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.21-08.15.03:601][860]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.21-08.15.03:603][860]TextureStreamingBuild: Display: Compiling optional shaders took 1.991 seconds.
+[2020.04.21-08.15.03:623][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.04.21-08.15.06:192][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Mat_Concrete" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Concrete.uasset" SILENT=true
+[2020.04.21-08.15.06:222][860]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Concrete47EB08A3421D8F37EAF7D4BD8071E059.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Concrete.uasset'
+[2020.04.21-08.15.06:235][860]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.15.06:235][860]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.15.06:235][860]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.15.06:235][860]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.15.06:236][860]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.15.06:236][860]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.15.06:236][860]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.15.18:232][260]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Models/Materials/Mat_Inst_Concrete.Mat_Inst_Concrete
+[2020.04.21-08.15.30:134][674]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.15.34:996][226]LogAssetEditorManager: Opening Asset editor for Material /Game/StarterContent/Materials/M_Brick_Cut_Stone.M_Brick_Cut_Stone
+[2020.04.21-08.15.35:000][226]LogMaterial: Display: Missing cached shader map for material M_Brick_Cut_Stone, compiling. 
+[2020.04.21-08.15.35:076][226]LogMaterial: Display: Missing cached shader map for material M_Brick_Cut_Stone, compiling. 
+[2020.04.21-08.15.35:094][226]LogMaterial: Display: Missing cached shader map for material M_Brick_Cut_Stone, compiling. 
+[2020.04.21-08.15.35:116][226]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.15.35:142][226]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling. 
+[2020.04.21-08.15.35:151][226]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
+[2020.04.21-08.15.35:158][226]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2020.04.21-08.15.35:167][226]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_21, compiling. 
+[2020.04.21-08.15.35:175][226]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_22, compiling. 
+[2020.04.21-08.15.35:184][226]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_23, compiling. 
+[2020.04.21-08.15.35:190][226]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_7, compiling. 
+[2020.04.21-08.15.35:505][236]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.21-08.15.36:290][288]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.15.37:340][354]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.15.38:124][408]MaterialEditorStats: Base pass shader: 135 instructions
+[2020.04.21-08.15.38:124][408]MaterialEditorStats: Base pass shader with Surface Lightmap: 163 instructions
+[2020.04.21-08.15.38:124][408]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 209 instructions
+[2020.04.21-08.15.38:124][408]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.15.38:124][408]MaterialEditorStats: Texture samplers: 7/16
+[2020.04.21-08.15.38:124][408]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2020.04.21-08.15.38:124][408]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.15.38:176][412]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.15.58:953][729]LogSlate: Window 'M_Brick_Cut_Stone' being destroyed
+[2020.04.21-08.15.58:958][729]LogSlate: Window 'M_Brick_Cut_Stone' being destroyed
+[2020.04.21-08.16.06:313][594]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.16.09:168][933]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Models/Materials/Mat_Inst_Concrete.Mat_Inst_Concrete
+[2020.04.21-08.16.18:337][ 14]LogAssetEditorManager: Opening Asset editor for Material /Game/Models/Materials/Mat_Wood_Floor.Mat_Wood_Floor
+[2020.04.21-08.16.18:341][ 14]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.16.18:407][ 14]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.16.18:425][ 14]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.16.18:445][ 14]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.16.18:472][ 14]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.21-08.16.19:223][ 90]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.16.20:191][205]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.16.21:187][324]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.16.21:187][324]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.16.21:187][324]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.16.21:187][324]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.16.21:187][324]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.16.21:187][324]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.16.21:187][324]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.16.41:578][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.16.59:170][134]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.16.59:188][134]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.21-08.16.59:203][134]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.16.59:942][222]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.17.00:979][346]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.17.01:944][461]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.17.01:944][461]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.17.01:944][461]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.17.01:944][461]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.17.01:944][461]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.17.01:944][461]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.17.01:945][461]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.17.05:682][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.17.17:334][298]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.17.17:370][299]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.17.17:811][352]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.17.18:760][466]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.17.20:126][629]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.17.20:126][629]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.17.20:126][629]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.17.20:126][629]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.17.20:126][629]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.17.20:126][629]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.17.20:126][629]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.17.23:242][  2]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.17.23:280][  3]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.17.23:712][ 55]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.17.24:654][168]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.17.26:100][275]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.17.26:100][275]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.17.26:100][275]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.17.26:100][275]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.17.26:100][275]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.17.26:100][275]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.17.26:100][275]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.18.09:432][ 82]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.18.09:467][ 83]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.18.10:117][161]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.18.11:075][276]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.18.12:207][411]MaterialEditorStats: Base pass shader: 111 instructions
+[2020.04.21-08.18.12:207][411]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2020.04.21-08.18.12:207][411]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2020.04.21-08.18.12:207][411]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.18.12:207][411]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.18.12:207][411]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.18.12:207][411]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.18.37:592][356]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.18.37:617][356]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.18.37:617][356]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.21-08.18.38:372][443]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.18.39:431][568]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.18.40:039][640]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.18.40:279][667]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.18.40:821][731]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.21-08.18.41:737][839]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.21-08.18.42:876][975]MaterialEditorStats: Base pass shader: 112 instructions
+[2020.04.21-08.18.42:877][975]MaterialEditorStats: Base pass shader with Surface Lightmap: 140 instructions
+[2020.04.21-08.18.42:877][975]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 186 instructions
+[2020.04.21-08.18.42:877][975]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.04.21-08.18.42:877][975]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.21-08.18.42:877][975]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.21-08.18.42:877][975]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.21-08.18.47:697][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.18.47:763][561]LogMaterialEditor: Saving and Compiling material Mat_Wood_Floor
+[2020.04.21-08.18.48:106][561]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.18.48:166][561]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.21-08.18.48:176][561]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.18.48:197][561]LogMaterial: Display: Missing cached shader map for material Mat_Wood_Floor, compiling. 
+[2020.04.21-08.18.48:245][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.04.21-08.18.48:251][561]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.21-08.18.50:285][561]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.04.21-08.18.50:285][561]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.21-08.18.50:287][561]TextureStreamingBuild: Display: Compiling optional shaders took 2.042 seconds.
+[2020.04.21-08.18.50:308][561]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.04.21-08.18.52:839][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Mat_Wood_Floor" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Wood_Floor.uasset" SILENT=true
+[2020.04.21-08.18.52:866][561]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Mat_Wood_Floor1483753646A8CED3895F8E80F8925C84.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Models/Materials/Mat_Wood_Floor.uasset'
+[2020.04.21-08.18.58:468][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.19.23:139][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.19.40:164][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.19.41:510][422]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Models/Materials/Mat_Inst_Concrete.Mat_Inst_Concrete
+[2020.04.21-08.19.49:992][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.21.21:066][376]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.04.21-08.21.21:260][376]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Building_Escape_Auto3085DB8CD4925AA70409AE5BDE983F7B8.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto3.umap'
+[2020.04.21-08.21.21:263][376]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Building_Escape' took 0.220
+[2020.04.21-08.21.21:264][376]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.220
+[2020.04.21-08.21.31:356][407]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.21-08.21.32:957][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.04.21-08.21.34:564][580]LogSlate: Window 'Save Content' being destroyed
+[2020.04.21-08.21.34:600][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.04.21-08.21.34:776][580]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/Building_Escape4B89645C4AE93C6CC5EB128B9CEBDB87.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/StarterContent/Maps/Building_Escape.umap'
+[2020.04.21-08.21.34:802][580]LogFileHelpers: Saving map 'Building_Escape' took 0.225
+[2020.04.21-08.21.48:949][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.21.53:596][547]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.22.03:395][689]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.22.22:587][948]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+[2020.04.21-08.22.24:536][179]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+[2020.04.21-08.22.52:872][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.23.10:844][679]LogSlate: Window 'Select Path' being destroyed
+[2020.04.21-08.23.10:971][679]LogStaticMesh: Building static mesh Tower_Mesh...
+[2020.04.21-08.23.11:049][679]LogStaticMesh: Built static mesh [0.08s] /Game/Models/Tower_Mesh.Tower_Mesh
+[2020.04.21-08.23.11:087][679]LogActorFactory: Actor Factory created Tower_Mesh
+[2020.04.21-08.23.11:136][679]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Building_Escape.Building_Escape:PersistentLevel.ConeBrush' is marked pending kill and cannot be converted
+[2020.04.21-08.23.11:136][679]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Building_Escape.Building_Escape:PersistentLevel.CylinderBrush_16' is marked pending kill and cannot be converted
+[2020.04.21-08.23.11:136][679]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Building_Escape.Building_Escape:PersistentLevel.CylinderBrush2' is marked pending kill and cannot be converted
+[2020.04.21-08.23.11:136][679]EditorErrors: New page: Actor Reattachment
+[2020.04.21-08.23.11:157][679]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.04.21-08.23.18:912][593]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.23.20:201][745]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.21-08.23.35:367][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tower_Mesh)
+[2020.04.21-08.23.35:984][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tower_Mesh)
+[2020.04.21-08.23.36:692][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tower_Mesh)
+[2020.04.21-08.23.40:859][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.21-08.23.52:370][576]Cmd: TRANSACTION UNDO
+[2020.04.21-08.23.52:370][576]LogEditorTransaction: Undo Clicking on Actors
+[2020.04.21-08.23.52:598][576]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.04.21-08.23.54:092][576]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.494 s
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: === Handled ensure: ===
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: 
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: Ensure condition failed: PinHelpers::UnresolvedPins.Num() == 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 2124]
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: 
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: Stack: 
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff82aef1639 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff829ec83b1 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff81ee34e85 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff81ee56366 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff81ee42f0c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff81ee9ac53 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff81eedae98 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff81ee7929f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff81ee426cc UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff81ee3c576 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff81f5cf0aa UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff80b1e559e UE4Editor-MainFrame.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff80b1e59fe UE4Editor-MainFrame.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff82e9f71ea UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff82ea2743e UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff80b1f4fde UE4Editor-MainFrame.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff80b1e542e UE4Editor-MainFrame.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff82ea28e48 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff82ea1f1ce UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff84c5bb55a UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff84c5aef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff84c5bd77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff84c5ac090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.21-08.23.54:092][576]LogOutputDevice: Error: [Callstack] 0x00007ff880765c0d USER32.dll!UnknownFunction []
+[2020.04.21-08.23.54:093][576]LogOutputDevice: Error: [Callstack] 0x00007ff880765602 USER32.dll!UnknownFunction []
+[2020.04.21-08.23.54:093][576]LogOutputDevice: Error: [Callstack] 0x00007ff84c5be946 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.21-08.23.54:093][576]LogOutputDevice: Error: [Callstack] 0x00007ff652bf5d3e UE4Editor.exe!UnknownFunction []
+[2020.04.21-08.23.54:093][576]LogOutputDevice: Error: [Callstack] 0x00007ff652c0554c UE4Editor.exe!UnknownFunction []
+[2020.04.21-08.23.54:093][576]LogOutputDevice: Error: [Callstack] 0x00007ff652c055ca UE4Editor.exe!UnknownFunction []
+[2020.04.21-08.23.54:093][576]LogOutputDevice: Error: [Callstack] 0x00007ff652c1316c UE4Editor.exe!UnknownFunction []
+[2020.04.21-08.23.54:093][576]LogOutputDevice: Error: [Callstack] 0x00007ff652c15b8e UE4Editor.exe!UnknownFunction []
+[2020.04.21-08.23.54:093][576]LogOutputDevice: Error: [Callstack] 0x00007ff881477bd4 KERNEL32.DLL!UnknownFunction []
+[2020.04.21-08.23.54:093][576]LogOutputDevice: Error: [Callstack] 0x00007ff881e8ce51 ntdll.dll!UnknownFunction []
+[2020.04.21-08.23.54:093][576]LogOutputDevice: Error: 
+[2020.04.21-08.23.54:096][576]LogStats:                SubmitErrorReport -  0.000 s
