@@ -1,0 +1,3 @@
+C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\Definitions.BuildingEscape.h
+C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Source\BuildingEscape\OpenDoor.h
+C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Inc\BuildingEscape\OpenDoor.generated.h

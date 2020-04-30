@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BuildingEscape-4209.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\BuildingEscape.cpp.obj"
+"C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\BuildingEscapeGameModeBase.cpp.obj"
+"C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\OpenDoor.cpp.obj"
+"C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\WorldPos.cpp.obj"
+"C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\BuildingEscape.init.gen.cpp.obj"
+"C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\BuildingEscapeGameModeBase.gen.cpp.obj"
+"C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\OpenDoor.gen.cpp.obj"
+"C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\WorldPos.gen.cpp.obj"
+"C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\Default.rc2.res"
+/OUT:"C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-4209.lib"
+/INCLUDE:IMPLEMENT_MODULE_BuildingEscape
