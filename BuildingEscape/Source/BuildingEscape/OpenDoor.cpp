@@ -21,8 +21,8 @@ void UOpenDoor::BeginPlay()
 	Super::BeginPlay();
 
 	InitialYaw = GetOwner() -> GetActorRotation().Yaw; // Checks initial Z rotation of the owner actor
-	CurrentYaw = InitialYaw; // sets current to same as above - starting roation of Z of owner
-	TargetYaw += InitialYaw; // our target to LERP to is wherever the Z started + value definied in header/editor Target = Target + Initial
+	CurrentYaw = InitialYaw; // sets current to same as above - starting rotation of Z of owner
+	TargetYaw += InitialYaw; // our target to LERP to is wherever the Z started + value defined in header/editor Target = Target + Initial
 }
 
 
@@ -36,9 +36,9 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 
 	//UE_LOG (LogTemp, Warning, TEXT("Yaw: %f"), GetOwner() -> GetActorRotation().Yaw);
 
-	FRotator DoorRotation = GetOwner() -> GetActorRotation(); // container for roation information
+	FRotator DoorRotation = GetOwner() -> GetActorRotation(); // container for rotation information
 	CurrentYaw = FMath :: FInterpTo (CurrentYaw, TargetYaw, DeltaTime, 2); // takes current yaw from BeginPlay and interpolates the current yaw to the target yaw managed by delta time
 	DoorRotation.Yaw = CurrentYaw; //container's z rotation should = the current yaw each frame - gets updated by the interpolation above
-	GetOwner() -> SetActorRotation(DoorRotation); // sets our owners roation to = the roatators roation each frame, thus opening the door
+	GetOwner() -> SetActorRotation(DoorRotation); // sets our owners rotation to = the rotators rotation each frame, thus opening the door
 }
 
