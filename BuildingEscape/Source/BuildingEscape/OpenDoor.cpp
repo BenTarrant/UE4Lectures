@@ -31,14 +31,21 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	
-	//UE_LOG (LogTemp, Warning, TEXT("%s"), *GetOwner() -> GetActorRotation(). ToString()); 
-	// Log, Yellow Text, Text Macro, String. GetActor this is attached, get its rotation, covert to string
+	if (PressurePlate ->IsOverlappingActor(TriggerActor)) // if the pressure plate volume notes an actor overlapping that's the specified trigger actor
+	{
+		OpenDoor(DeltaTime); //open the door (managed by delta time)
+	}
+	
+}
 
-	//UE_LOG (LogTemp, Warning, TEXT("Yaw: %f"), GetOwner() -> GetActorRotation().Yaw);
-
+void UOpenDoor::OpenDoor (float DeltaTime)
+{
 	FRotator DoorRotation = GetOwner() -> GetActorRotation(); // container for rotation information
 	CurrentYaw = FMath :: FInterpTo (CurrentYaw, TargetYaw, DeltaTime, 2); // takes current yaw from BeginPlay and interpolates the current yaw to the target yaw managed by delta time
 	DoorRotation.Yaw = CurrentYaw; //container's z rotation should = the current yaw each frame - gets updated by the interpolation above
 	GetOwner() -> SetActorRotation(DoorRotation); // sets our owners rotation to = the rotators rotation each frame, thus opening the door
-}
 
+	UE_LOG (LogTemp, Warning, TEXT("%s"), *GetOwner() -> GetActorRotation(). ToString()); 
+	//Log, Yellow Text, Text Macro, String. GetActor this is attached, get its rotation, covert to string
+	UE_LOG (LogTemp, Warning, TEXT("Yaw: %f"), GetOwner() -> GetActorRotation().Yaw);
+}

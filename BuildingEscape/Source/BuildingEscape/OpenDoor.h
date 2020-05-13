@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Engine/TriggerVolume.h"
 #include "OpenDoor.generated.h"
+
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -15,6 +17,7 @@ class BUILDINGESCAPE_API UOpenDoor : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UOpenDoor();
+	void OpenDoor(float DeltaTime);
 
 protected:
 	// Called when the game starts
@@ -31,5 +34,10 @@ float CurrentYaw;
 
 UPROPERTY(EditAnywhere) // exposes the below variables to the Editor
 float TargetYaw = 90;
-		
+
+UPROPERTY(EditAnywhere)
+ATriggerVolume* PressurePlate;
+
+UPROPERTY(EditAnywhere)
+AActor* TriggerActor;
 };
