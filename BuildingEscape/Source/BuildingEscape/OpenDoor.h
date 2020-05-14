@@ -18,6 +18,7 @@ public:
 	// Sets default values for this component's properties
 	UOpenDoor();
 	void OpenDoor(float DeltaTime);
+	void CloseDoor(float DeltaTime);
 
 protected:
 	// Called when the game starts
@@ -35,6 +36,12 @@ float CurrentYaw;
 UPROPERTY(EditAnywhere) // exposes the below variables to the Editor
 float TargetYaw = 90;
 
+UPROPERTY(EditAnywhere) // exposes the below variables to the Editor
+float OpenSpeed = 2;
+	
+UPROPERTY(EditAnywhere) // exposes the below variables to the Editor
+float CloseSpeed = 2.5;
+	
 UPROPERTY(EditAnywhere)
 ATriggerVolume* PressurePlate;
 

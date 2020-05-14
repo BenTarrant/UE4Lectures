@@ -3,37 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="f0286777-9304-46ed-b54b-f1cd562f78e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BuildingEscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BuildingEscape/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/BuildingEscapeEditor.target" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/BuildingEscapeEditor.target" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Flame_FX_Blueprint.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Flame_FX_Blueprint.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Models/Materials/Mat_Inst_Wood.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Models/Materials/Mat_Inst_Wood.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Models/Materials/Wood.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Models/Room_StaticMesh.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Models/SM_Door.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Models/SM_Door.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Models/Spiral_Stair_StaticMesh.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Models/Spiral_Stair_StaticMesh.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/SFX/Flame_FX.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SFX/Flame_FX.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP_Flame_FX.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP_Flame_FX.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Maps/Building_Escape.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Maps/Building_Escape.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/ActionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/BuildingEscapeEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/BuildingEscapeEditor.uhtmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/DependencyCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/HotReload.state" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/HotReload.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Metadata-HotReload.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Metadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Metadata.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/OpenDoor.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/OpenDoor.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/OpenDoor.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/OpenDoor.gen.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/UE4Editor-BuildingEscape.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/UE4Editor-BuildingEscape.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/UE4Editor-BuildingEscape.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/UE4Editor-BuildingEscape.suppressed.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/BuildingEscape.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/BuildingEscape.init.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/OpenDoor.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/OpenDoor.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/OpenDoor.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/OpenDoor.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto1.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto2.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto2.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto3.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto3.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto4.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto4.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-14A4F438488CCB76B63618AD1BFDAE2B/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-C35EFA5E4C58AA826F8529B3A7C3CC55/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-CE7691F64A6F39221460AF9DDCF3742C/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-E0A0DC594FF14AD2741F2C8FCEF64586/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-E64A751B4CE99C24A77047B230DAD482/CrashReportClient.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/WorldState/2443861361.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WorldState/2443861361.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/BuildingEscape.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/BuildingEscape.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/BuildingEscape/OpenDoor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BuildingEscape/OpenDoor.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/BuildingEscape/OpenDoor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BuildingEscape/OpenDoor.h" afterDir="false" />
@@ -49,9 +43,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Source/BuildingEscape/OpenDoor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/BuildingEscape/BuildingEscape.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/BuildingEscape/WorldPos.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/BuildingEscape/BuildingEscape.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/BuildingEscape/BuildingEscapeGameModeBase.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/BuildingEscape/OpenDoor.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/BuildingEscape/WorldPos.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -287,5 +283,11 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1589445415317">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1589445415317" />
   </component>
 </project>
