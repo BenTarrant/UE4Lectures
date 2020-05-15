@@ -48,9 +48,10 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	if (PressurePlate && PressurePlate -> IsOverlappingActor(TriggerActor)) // if the pressure plate volume exists AND notes an actor overlapping that's the specified trigger actor
 	{
 		OpenDoor(DeltaTime); //open the door (managed by delta time)
+		DoorLastOpened = GetWorld() -> GetTimeSeconds();
 	}
 
-	else
+	else if (GetWorld() -> GetTimeSeconds() - DoorLastOpened > DoorCloseDelay)
 	{
 		CloseDoor(DeltaTime);
 	}

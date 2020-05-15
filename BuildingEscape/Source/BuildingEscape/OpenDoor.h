@@ -30,21 +30,26 @@ public:
 
 private:
 
-float InitialYaw;
-float CurrentYaw;
+	float InitialYaw;
+	float CurrentYaw;
 
-UPROPERTY(EditAnywhere) // exposes the below variables to the Editor
-float TargetYaw = 90;
+	UPROPERTY(EditAnywhere) // exposes the below variables to the Editor
+	float TargetYaw = 90;
 
-UPROPERTY(EditAnywhere) // exposes the below variables to the Editor
-float OpenSpeed = 2;
-	
-UPROPERTY(EditAnywhere) // exposes the below variables to the Editor
-float CloseSpeed = 2.5;
-	
-UPROPERTY(EditAnywhere)
-ATriggerVolume* PressurePlate;
+	UPROPERTY(EditAnywhere) // exposes the below variables to the Editor
+	float OpenSpeed = 2;
+		
+	UPROPERTY(EditAnywhere) // exposes the below variables to the Editor
+	float CloseSpeed = 2.5;
+		
+	UPROPERTY(EditAnywhere)
+	ATriggerVolume* PressurePlate;
 
-UPROPERTY(EditAnywhere)
-AActor* TriggerActor;
+	UPROPERTY(EditAnywhere)
+	AActor* TriggerActor;
+
+	float DoorLastOpened = 0.f;
+
+	UPROPERTY(EditAnywhere)
+	float DoorCloseDelay = 2.f;
 };

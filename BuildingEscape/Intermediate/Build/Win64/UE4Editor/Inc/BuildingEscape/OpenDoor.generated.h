@@ -62,7 +62,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOpenDoor); \
 	FORCEINLINE static uint32 __PPO__OpenSpeed() { return STRUCT_OFFSET(UOpenDoor, OpenSpeed); } \
 	FORCEINLINE static uint32 __PPO__CloseSpeed() { return STRUCT_OFFSET(UOpenDoor, CloseSpeed); } \
 	FORCEINLINE static uint32 __PPO__PressurePlate() { return STRUCT_OFFSET(UOpenDoor, PressurePlate); } \
-	FORCEINLINE static uint32 __PPO__TriggerActor() { return STRUCT_OFFSET(UOpenDoor, TriggerActor); }
+	FORCEINLINE static uint32 __PPO__TriggerActor() { return STRUCT_OFFSET(UOpenDoor, TriggerActor); } \
+	FORCEINLINE static uint32 __PPO__DoorCloseDelay() { return STRUCT_OFFSET(UOpenDoor, DoorCloseDelay); }
 
 
 #define BuildingEscape_Source_BuildingEscape_OpenDoor_h_12_PROLOG
