@@ -25,8 +25,18 @@ void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
-	
+	// check for the physics handle component to enable grabbing
+	PhysicsHandle = GetOwner() -> FindComponentByClass<UPhysicsHandleComponent>();
+
+	if (PhysicsHandle)
+	{
+		//Physics Handle Found
+	}
+
+	else
+	{
+		UE_LOG (LogTemp, Error, TEXT("The Actor %s has Grabber.cpp attached but no PhysicsHandle Component"), *GetOwner() -> GetName());
+	}
 }
 
 
@@ -46,7 +56,13 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	// raycast out to X distance (players reach)
 	FVector LineTraceDirection = PlayerViewPointRotation.Vector() *Reach;
 	FVector LineTraceEnd = PlayerViewPointLocation + LineTraceDirection;
-	
+	FHitResult Hit;
+	FCollisionQueryParams TraceParams (FName(TEXT("")), false, GetOwner());
+
+	//fire the raycast
+	GetWorld() -> LineTraceSingleByObjectType(OUT Hit, PlayerViewPointLocation, LineTraceEnd, FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody), TraceParams);
+
+	//visualise the raycast
 	DrawDebugLine(
 	GetWorld(),
 	PlayerViewPointLocation,
@@ -59,6 +75,12 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	);
 	
 	// check what we hit with the raycast and consider
+	AActor* ActorHit = Hit.GetActor();
+
+	if (ActorHit)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Ray Hit: %s "), *(ActorHit -> GetName()));
+	}
 	
 }
 
