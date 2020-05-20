@@ -3,6 +3,9 @@
 
 #include "Grabber.h"
 
+#include <PhysX3/APEX_1.4/shared/general/RenderDebug/public/RenderDebug.h>
+
+
 #include "DrawDebugHelpers.h"
 #include "GameFramework/PlayerController.h"
 #include "Engine/World.h"
@@ -27,7 +30,8 @@ void UGrabber::BeginPlay()
 
 	// check for the physics handle component to enable grabbing
 	PhysicsHandle = GetOwner() -> FindComponentByClass<UPhysicsHandleComponent>();
-
+	InputHandle = GetOwner() -> FindComponentByClass<UInputComponent>();
+	
 	if (PhysicsHandle)
 	{
 		//Physics Handle Found
@@ -37,7 +41,20 @@ void UGrabber::BeginPlay()
 	{
 		UE_LOG (LogTemp, Error, TEXT("The Actor %s has Grabber.cpp attached but no PhysicsHandle Component"), *GetOwner() -> GetName());
 	}
+
+	if (InputHandle)
+	{
+		UE_LOG (LogTemp, Display, TEXT("The Actor %s has an Input Component"), *GetOwner() -> GetName());
+		InputHandle -> BindAction("GrabItem", IE_Pressed, this, &UGrabber::Grab);
+	}
+
 }
+
+	void UGrabber::Grab()
+	{
+		
+	}
+
 
 
 // Called every frame
