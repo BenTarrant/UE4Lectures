@@ -2,10 +2,6 @@
 
 
 #include "Grabber.h"
-
-#include <PhysX3/APEX_1.4/shared/general/RenderDebug/public/RenderDebug.h>
-
-
 #include "DrawDebugHelpers.h"
 #include "GameFramework/PlayerController.h"
 #include "Engine/World.h"
@@ -18,8 +14,6 @@ UGrabber::UGrabber()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
-	// ...
 }
 
 
@@ -27,11 +21,33 @@ UGrabber::UGrabber()
 void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
+	
+	// Call the function to check necessary components have a physics handle
+	FindPhysicsHandle();
+	// Call the function to check necessary input components are present and assigned
+	SetupInputComponent();
+}
+// Called every frame
+void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+{
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);	
+}
 
+void UGrabber::Grab()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Grabber Pressed"));
+	RaycastHitResult();
+}
+
+void UGrabber::Release()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Grabber Released"));
+}
+
+void UGrabber::FindPhysicsHandle()
+{
 	// check for the physics handle component to enable grabbing
 	PhysicsHandle = GetOwner() -> FindComponentByClass<UPhysicsHandleComponent>();
-	InputHandle = GetOwner() -> FindComponentByClass<UInputComponent>();
-	
 	if (PhysicsHandle)
 	{
 		//Physics Handle Found
@@ -40,28 +56,27 @@ void UGrabber::BeginPlay()
 	else
 	{
 		UE_LOG (LogTemp, Error, TEXT("The Actor %s has Grabber.cpp attached but no PhysicsHandle Component"), *GetOwner() -> GetName());
-	}
-
-	if (InputHandle)
-	{
-		UE_LOG (LogTemp, Display, TEXT("The Actor %s has an Input Component"), *GetOwner() -> GetName());
-		InputHandle -> BindAction("GrabItem", IE_Pressed, this, &UGrabber::Grab);
-	}
-
+	}	
 }
 
-	void UGrabber::Grab()
+void UGrabber::SetupInputComponent()
+{
+	InputHandle = GetOwner() -> FindComponentByClass<UInputComponent>();
+	if (InputHandle)
 	{
-		
+		UE_LOG (LogTemp, Warning, TEXT("The Actor %s has an Input Component"), *GetOwner() -> GetName());
+		InputHandle -> BindAction("GrabItem", IE_Pressed, this, &UGrabber::Grab);
+		InputHandle -> BindAction("GrabItem", IE_Released, this, &UGrabber::Release);
 	}
 
+	else
+	{
+		UE_LOG (LogTemp, Error, TEXT("The Actor %s has doesn't have an Input Component"), *GetOwner() -> GetName());
+	}
+}
 
-
-// Called every frame
-void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+FHitResult UGrabber::RaycastHitResult()
 {
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
 	//variables for use in Playerviewpoint
 	FVector PlayerViewPointLocation;
 	FRotator PlayerViewPointRotation;
@@ -77,27 +92,23 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	FCollisionQueryParams TraceParams (FName(TEXT("")), false, GetOwner());
 
 	//fire the raycast
-	GetWorld() -> LineTraceSingleByObjectType(OUT Hit, PlayerViewPointLocation, LineTraceEnd, FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody), TraceParams);
+	GetWorld() -> LineTraceSingleByObjectType(
+    OUT Hit,
+    PlayerViewPointLocation,
+    LineTraceEnd,
+    FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
+    TraceParams);
 
-	//visualise the raycast
-	DrawDebugLine(
-	GetWorld(),
-	PlayerViewPointLocation,
-	LineTraceEnd,
-	FColor(255,0,0),
-	false,
-	0.f,
-	0,
-	3.f
-	);
-	
 	// check what we hit with the raycast and consider
 	AActor* ActorHit = Hit.GetActor();
 
 	if (ActorHit)
 	{
-		UE_LOG(LogTemp, Error, TEXT("Ray Hit: %s "), *(ActorHit -> GetName()));
+		UE_LOG(LogTemp, Warning, TEXT("Ray Hit: %s "), *(ActorHit -> GetName()));
 	}
-	
+
+	return Hit;
 }
+
+
 
