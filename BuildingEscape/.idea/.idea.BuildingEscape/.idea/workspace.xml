@@ -2,31 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0286777-9304-46ed-b54b-f1cd562f78e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BuildingEscape/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BuildingEscape/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BuildingEscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BuildingEscape/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Maps/Building_Escape.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Maps/Building_Escape.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/ActionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/BuildingEscapeEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/BuildingEscapeEditor.uhtmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/DependencyCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Engine/SharedPCH.Engine.h.pch.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Engine/SharedPCH.Engine.h.pch.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Engine/SharedPCH.Engine.h.pch.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Engine/SharedPCH.Engine.h.pch.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Engine/SharedPCH.Engine.h.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Engine/SharedPCH.Engine.h.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/HotReload.state" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/HotReload.state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Metadata-HotReload.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.h.pch.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.h.pch.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.h.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.h.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscape.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscape.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscape.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscape.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscape.init.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscape.init.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscape.init.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscape.init.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscapeGameModeBase.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscapeGameModeBase.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscapeGameModeBase.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscapeGameModeBase.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscapeGameModeBase.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscapeGameModeBase.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscapeGameModeBase.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/BuildingEscapeGameModeBase.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/Grabber.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/Grabber.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/Grabber.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/Grabber.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/OpenDoor.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/OpenDoor.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/OpenDoor.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/OpenDoor.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/UE4Editor-BuildingEscape.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/UE4Editor-BuildingEscape.dll.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/UE4Editor-BuildingEscape.dll.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/UE4Editor-BuildingEscape.dll.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/WorldPos.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/WorldPos.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/WorldPos.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/WorldPos.gen.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/Timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/BuildingEscape.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/BuildingEscape.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/BuildingEscape.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/BuildingEscape.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-20DFB4A44C661EA5C64CAA9BD6F9D5B8/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-BCAD74EF439596FE8AFA1AAF983F2628/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLink.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor.modules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/Module.RiderLink.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/Module.RiderLink.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/Module.RiderLink.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/Module.RiderLink.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink.dll.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto1.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto2.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto2.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto3.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Building_Escape_Auto3.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BuildingEscape-backup-2020.05.16-14.08.18.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BuildingEscape-backup-2020.05.16-15.41.37.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BuildingEscape-backup-2020.05.20-08.51.54.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WorldState/2443861361.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WorldState/2443861361.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/BuildingEscape.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/BuildingEscape.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/BuildingEscape/Grabber.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BuildingEscape/Grabber.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/BuildingEscape/Grabber.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BuildingEscape/Grabber.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/BuildingEscape/OpenDoor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BuildingEscape/OpenDoor.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +72,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Source/BuildingEscape/OpenDoor.h" />
-        <option value="$PROJECT_DIR$/Source/BuildingEscape/OpenDoor.cpp" />
         <option value="$PROJECT_DIR$/Source/BuildingEscape/Grabber.h" />
         <option value="$PROJECT_DIR$/Source/BuildingEscape/Grabber.cpp" />
+        <option value="$PROJECT_DIR$/Source/BuildingEscape/OpenDoor.cpp" />
       </list>
     </option>
   </component>

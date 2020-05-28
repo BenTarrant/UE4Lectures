@@ -2,6 +2,7 @@
 
 
 #include "Grabber.h"
+
 #include "DrawDebugHelpers.h"
 #include "GameFramework/PlayerController.h"
 #include "Engine/World.h"
@@ -30,18 +31,62 @@ void UGrabber::BeginPlay()
 // Called every frame
 void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);	
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+	
+	//variables for use in Playerviewpoint
+	FVector PlayerViewPointLocation;
+	FRotator PlayerViewPointRotation;
+	
+	//Get player viewpoint
+	GetWorld() -> GetFirstPlayerController() -> GetPlayerViewPoint(OUT PlayerViewPointLocation, OUT PlayerViewPointRotation);
+	//UE_LOG (LogTemp, Warning, TEXT("Location: %s Rotation: %s"), *PlayerViewPointLocation.ToString(), *PlayerViewPointRotation.ToString());
+	
+	// raycast out to X distance (players reach)
+	FVector LineTraceDirection = PlayerViewPointRotation.Vector() *Reach;
+	FVector LineTraceEnd = PlayerViewPointLocation + LineTraceDirection;
+	
+	if (PhysicsHandle -> GrabbedComponent)
+	{
+		PhysicsHandle -> SetTargetLocation(LineTraceEnd);
+	}
 }
 
 void UGrabber::Grab()
 {
+	
+	//variables for use in Playerviewpoint
+	FVector PlayerViewPointLocation;
+	FRotator PlayerViewPointRotation;
+	
+	//Get player viewpoint
+	GetWorld() -> GetFirstPlayerController() -> GetPlayerViewPoint(OUT PlayerViewPointLocation, OUT PlayerViewPointRotation);
+	//UE_LOG (LogTemp, Warning, TEXT("Location: %s Rotation: %s"), *PlayerViewPointLocation.ToString(), *PlayerViewPointRotation.ToString());
+	
+	// raycast out to X distance (players reach)
+	FVector LineTraceDirection = PlayerViewPointRotation.Vector() *Reach;
+	FVector LineTraceEnd = PlayerViewPointLocation + LineTraceDirection;
+	
 	UE_LOG(LogTemp, Warning, TEXT("Grabber Pressed"));
-	RaycastHitResult();
+	FHitResult HitResult = RaycastHitResult();
+
+	UPrimitiveComponent* ComponentToGrab = HitResult.GetComponent();
+	
+	if(HitResult.GetActor())
+	{
+		PhysicsHandle -> GrabComponentAtLocation(ComponentToGrab, NAME_None, LineTraceEnd);
+	}
+	
 }
 
 void UGrabber::Release()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grabber Released"));
+
+	if (PhysicsHandle ->GrabbedComponent)
+	{
+		PhysicsHandle -> ReleaseComponent();
+		UE_LOG(LogTemp, Warning, TEXT("Physics Handle Released"));
+	}
 }
 
 void UGrabber::FindPhysicsHandle()

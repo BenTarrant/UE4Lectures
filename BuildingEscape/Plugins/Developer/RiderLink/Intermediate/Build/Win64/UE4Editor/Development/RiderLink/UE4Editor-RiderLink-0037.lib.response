@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-RiderLink-0037.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\UnrealEd\SharedPCH.UnrealEd.RTTI.h.obj"
+"C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\Module.RiderLink.cpp.obj"
+"C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\Default.rc2.res"
+/OUT:"C:\Users\Ben Tarrant\Documents\GitHub\UE4Lectures\BuildingEscape\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\UE4Editor-RiderLink-0037.lib"
+/INCLUDE:IMPLEMENT_MODULE_RiderLink

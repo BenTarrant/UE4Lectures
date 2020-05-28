@@ -23,7 +23,7 @@ void UOpenDoor::BeginPlay()
 	Super::BeginPlay();
 
 	//Assign player as TriggerActor to open Door
-	TriggerActor = GetWorld() -> GetFirstPlayerController() -> GetPawn(); //Sets the AActor Trigger Actor to be the Default Spawned Pawn of the player controller
+	//TriggerActor = GetWorld() -> GetFirstPlayerController() -> GetPawn(); //Sets the AActor Trigger Actor to be the Default Spawned Pawn of the player controller
 	// GetWorld is a top down look, getting all classes, then getting player controller then pawn which inherits from Actors
 
 	//Set Values for Door to Open
@@ -36,6 +36,12 @@ void UOpenDoor::BeginPlay()
 	{
 		UE_LOG (LogTemp, Error, TEXT("The Actor %s has OpenDoor attached but no PressurePlate assigned"), *GetOwner() -> GetName());
 	}
+
+	//Check if a trigger actor has been assigned
+	if (!TriggerActor)
+	{
+		UE_LOG (LogTemp, Error, TEXT("The Actor %s has OpenDoor attached but no TriggerActor assigned!"), *GetOwner() -> GetName());
+	}
 }
 
 
@@ -45,7 +51,7 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	//check if a pressure plate is assigned and have the player/trigger actor inside its volume
-	if (PressurePlate && PressurePlate -> IsOverlappingActor(TriggerActor)) // if the pressure plate volume exists AND notes an actor overlapping that's the specified trigger actor
+	if (PressurePlate && PressurePlate -> IsOverlappingActor (TriggerActor)) // if the pressure plate volume exists AND notes an actor overlapping that's the specified trigger actor
 	{
 		OpenDoor(DeltaTime); //open the door (managed by delta time)
 		DoorLastOpened = GetWorld() -> GetTimeSeconds();
