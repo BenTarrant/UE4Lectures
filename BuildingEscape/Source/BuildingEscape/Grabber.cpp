@@ -70,10 +70,12 @@ void UGrabber::Grab()
 	FHitResult HitResult = RaycastHitResult();
 
 	UPrimitiveComponent* ComponentToGrab = HitResult.GetComponent();
-	
+	FRotator Test;
+
 	if(HitResult.GetActor())
 	{
-		PhysicsHandle -> GrabComponentAtLocation(ComponentToGrab, NAME_None, LineTraceEnd);
+		PhysicsHandle -> GrabComponentAtLocationWithRotation(ComponentToGrab, NAME_None, LineTraceEnd, Test);
+		
 	}
 	
 }
