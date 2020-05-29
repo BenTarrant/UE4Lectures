@@ -42,4 +42,7 @@ private:
 	void Grab();
 	void Release();
 	FHitResult RaycastHitResult();
+
+	FVector GetPlayerReach() const;
+	FVector GetPlayerWorldPos() const;
 };

@@ -13147,3 +13147,89 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.28-21.03.43:704][648]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
 [2020.05.28-21.03.45:443][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DefaultPlayer" FILE="C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Blueprints/BP_DefaultPlayer.uasset" SILENT=true
 [2020.05.28-21.03.45:467][853]LogSavePackage: Moving 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Saved/BP_DefaultPlayer0BE1A88D4226CA34C70FECA462DD3D39.tmp' to 'C:/Users/Ben Tarrant/Documents/GitHub/UE4Lectures/BuildingEscape/Content/Blueprints/BP_DefaultPlayer.uasset'
+[2020.05.28-21.21.59:736][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.05.28-21.21.59:891][449]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.05.28-21.21.59:989][449]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.05.28-21.22.00:049][449]LogSlate: Window 'BuildingEscape - Unreal Editor' being destroyed
+[2020.05.28-21.22.00:051][449]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.28-21.22.00:314][450]Cmd: QUIT_EDITOR
+[2020.05.28-21.22.00:765][450]LogExit: Preparing to exit.
+[2020.05.28-21.22.02:101][450]LogExit: Editor shut down
+[2020.05.28-21.22.02:102][450]LogExit: Transaction tracking system shut down
+[2020.05.28-21.22.02:387][450]LogExit: Object subsystem successfully closed.
+[2020.05.28-21.22.02:412][450]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.05.28-21.22.02:418][450]LogD3D11RHI: Shutdown
+[2020.05.28-21.22.02:418][450]LogD3D11RHI: CleanupD3DDevice
+[2020.05.28-21.22.02:419][450]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.05.28-21.22.02:419][450]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.05.28-21.22.02:419][450]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.05.28-21.22.02:419][450]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.05.28-21.22.02:419][450]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.05.28-21.22.02:419][450]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.05.28-21.22.02:520][450]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.05.28-21.22.02:566][450]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (659)
+[2020.05.28-21.22.02:566][450]LogModuleManager: Shutting down and abandoning module BlueprintGraph (657)
+[2020.05.28-21.22.02:566][450]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (655)
+[2020.05.28-21.22.02:566][450]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (653)
+[2020.05.28-21.22.02:566][450]LogModuleManager: Shutting down and abandoning module Voice (651)
+[2020.05.28-21.22.02:566][450]LogModuleManager: Shutting down and abandoning module BuildingEscape (649)
+[2020.05.28-21.22.02:566][450]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (648)
+[2020.05.28-21.22.02:566][450]LogModuleManager: Shutting down and abandoning module SceneOutliner (646)
+[2020.05.28-21.22.02:566][450]LogModuleManager: Shutting down and abandoning module AddContentDialog (644)
+[2020.05.28-21.22.02:568][450]LogModuleManager: Shutting down and abandoning module WidgetCarousel (643)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module EditorWidgets (640)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module CollectionManager (638)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module StatsViewer (636)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module FoliageEdit (634)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module LandscapeEditor (632)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module MeshPaintMode (630)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (628)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module ActorPickerMode (626)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module GeometryMode (624)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module TextureAlignMode (622)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module BspMode (620)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (618)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (616)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module AutomationWorker (614)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module OculusMR (612)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (610)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (608)
+[2020.05.28-21.22.02:569][450]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (606)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module PlacementMode (605)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module MaterialEditor (604)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (600)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (598)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (596)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (594)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (592)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module WebMMedia (590)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (588)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (586)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module SequenceRecorder (585)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (582)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (580)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (578)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (576)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (574)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (572)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (570)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (568)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (566)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (564)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (562)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module CharacterAI (560)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module SmartSnapping (558)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module SessionServices (556)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module MeshPaint (554)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module ViewportSnapping (552)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module ViewportInteraction (550)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module ClothPainter (548)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (547)
+[2020.05.28-21.22.02:570][450]LogModuleManager: Shutting down and abandoning module LogVisualizer (544)
+[2020.05.28-21.22.02:571][450]LogModuleManager: Shutting down and abandoning module IntroTutorials (542)
+[2020.05.28-21.22.02:571][450]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (541)
+[2020.05.28-21.22.02:571][450]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (538)
+[2020.05.28-21.22.02:571][450]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (536)
+[2020.05.28-21.22.02:571][450]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (534)
+[2020.05.28-21.22.02:571][450]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (532)
+[2020.05.28-21.22.02:571][450]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (531)

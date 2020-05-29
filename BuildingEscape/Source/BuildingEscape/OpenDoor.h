@@ -52,4 +52,9 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	float DoorCloseDelay = 2.f;
+
+	float TotalMassOfActors() const;
+
+	UPROPERTY(EditAnywhere)
+	float PressurePlateTargetMass = 50.f;
 };
