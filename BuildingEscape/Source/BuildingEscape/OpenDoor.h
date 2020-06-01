@@ -15,18 +15,24 @@ class BUILDINGESCAPE_API UOpenDoor : public UActorComponent
 	GENERATED_BODY()
 
 public:	
+
+	// Called every frame
+	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
 	// Sets default values for this component's properties
 	UOpenDoor();
+
 	void OpenDoor(float DeltaTime);
 	void CloseDoor(float DeltaTime);
+	void FindAudioComponent();
+	void FindPressurePlate();
+
+	bool OpenAudioPlayed = false;
+	bool CloseAudioPlayed = true;
 
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
-
-public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
 
@@ -43,10 +49,7 @@ private:
 	float CloseSpeed = 2.5;
 		
 	UPROPERTY(EditAnywhere)
-	ATriggerVolume* PressurePlate;
-
-	UPROPERTY(EditAnywhere)
-	AActor* TriggerActor;
+	ATriggerVolume* PressurePlate = nullptr;
 
 	float DoorLastOpened = 0.f;
 
@@ -57,4 +60,9 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	float PressurePlateTargetMass = 50.f;
+
+	UPROPERTY()
+	UAudioComponent* AudioComponent = nullptr;
+
+
 };

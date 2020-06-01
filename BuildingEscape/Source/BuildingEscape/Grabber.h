@@ -31,10 +31,13 @@ protected:
 
 private:
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY()
 	float Reach = 100.f;
 
+	UPROPERTY(EditAnywhere)
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
+
+	UPROPERTY()
 	UInputComponent* InputHandle = nullptr;
 
 	void FindPhysicsHandle();

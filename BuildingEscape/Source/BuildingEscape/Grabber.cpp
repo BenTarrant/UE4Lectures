@@ -62,6 +62,8 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	
+	if (!PhysicsHandle) { return; }
+
 	if (PhysicsHandle -> GrabbedComponent)
 	{
 		PhysicsHandle->SetTargetLocation(GetPlayerReach());
@@ -75,9 +77,12 @@ void UGrabber::Grab()
 
 	UPrimitiveComponent* ComponentToGrab = HitResult.GetComponent();
 	FRotator ConstrainRot;
+	AActor* ActorHit = HitResult.GetActor();
 
-	if(HitResult.GetActor())
+	if(ActorHit)
 	{
+		if (!PhysicsHandle) { return; }
+
 		PhysicsHandle -> GrabComponentAtLocationWithRotation(ComponentToGrab, NAME_None, GetPlayerReach(), ConstrainRot);
 	}
 }
@@ -113,6 +118,8 @@ FVector UGrabber::GetPlayerWorldPos() const
 void UGrabber::Release()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grabber Released"));
+
+	if (!PhysicsHandle) { return; }
 
 	if (PhysicsHandle ->GrabbedComponent)
 	{
